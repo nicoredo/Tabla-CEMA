@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Medicación</title>
+  <style>
+  body {
+    font-family: "Segoe UI", sans-serif;
+    padding: 20px;
+    width: 700px;
+    background: #f0f8ff;
+    color: #333;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+    color: #2c3e50;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  th {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+
+  td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .btn {
+    margin: 10px 5px 0 0;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.3s ease;
+  }
+
+  .add-row-btn {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+  }
+
+  .clear-btn {
+    background: linear-gradient(to right, #f2994a, #f2c94c);
+    color: white;
+  }
+
+  .print-btn {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    color: white;
+  }
+
+  .pdf-btn {
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    color: white;
+  }
+
+  .remove-btn {
+    background: #e74c3c;
+    color: white;
+    border-radius: 6px;
+    border: none;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  #popupControles {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+
+  #popupControles button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 4px;
+    padding: 4px;
+  }
+
+  @media print {
+    body {
+      background: white;
+      font-size: 12pt;
+      margin: 0;
+      padding: 0;
+    }
+
+    #popupControles,
+    .btn,
+    #btnAgregar,
+    #btnLimpiar,
+    #btnImprimir {
+      display: none !important;
+    }
+
+    textarea {
+      border: none;
+      resize: none;
+      height: auto;
+    }
+
+    table {
+      page-break-inside: avoid;
+    }
+
+    th, td {
+      font-size: 11pt;
+      padding: 8px;
+    }
+
+    h2 {
+      margin-top: 10px;
+    }
+
+    @page {
+      margin: 20mm;
+    }
+  }
+</style>
+
+</head>
+
+<datalist id="listaMedicamentos"></datalist>
+
+<body>
+  <div id="popupControles">
+  <button id="btnMinimizar" title="Minimizar">🔽</button>
+  <button id="btnCerrar" title="Cerrar">❌</button>
+</div>
+  <h2>Plan de Medicación</h2>
+  <div><strong>Paciente:</strong> <span id="nombrePaciente">---</span></div>
+  <div><strong>DNI:</strong> <span id="dniPaciente">---</span></div>
+
+  <table id="tablaMedicacion">
+    <thead>
+      <tr>
+        <th>Medicamento</th>
+        <th>Mg</th>
+        <th>Mañana</th>
+        <th>Mediodía</th>
+        <th>Tarde</th>
+        <th>Noche</th>
+        <th>X</th>
+      </tr>
+    </thead>
+    <tbody id="tbodyMedicacion">
+    </tbody>
+  </table>
+  
+
+<button class="btn add-row-btn" id="btnAgregar">+ Agregar medicamento</button>
+<button class="btn clear-btn" id="btnLimpiar">🧹 Limpiar</button>
+<button class="btn pdf-btn" id="btnPDF">📄 Generar PDF</button>
+<button class="btn print-btn" id="btnReceta">📝 Imprimir receta</button>
+
+
+
+
+  <h3>Anotaciones:</h3>
+  <textarea rows="4" placeholder="Observaciones, indicaciones, etc."></textarea>
+
+  <script src="popup.js"></script>
+<script src="jspdf.umd.min.js"></script>
+<script src="jspdf.plugin.autotable.min.js"></script>
+
+
+</body>
+</html>
