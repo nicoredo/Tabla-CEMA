@@ -210,7 +210,7 @@ document.getElementById("btnPDF").addEventListener("click", () => {
         // 6. Pie de página
         doc.setFontSize(12);
         doc.setTextColor(100);
-        const pieTexto = "Para recetas online enviar foto de esta Tabla a: consultoriopulsar@gmail.com o a nuestro Whatsapp: 223-5606364";
+        const pieTexto = "SERVICIO DE CARDIOLOGIA - CEMA";
         const pieLineas = doc.splitTextToSize(pieTexto, 180);
         const pieY = 285 - (pieLineas.length - 1) * 6;
         doc.text(pieLineas, 105, pieY, { align: "center" });
