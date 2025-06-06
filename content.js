@@ -114,20 +114,21 @@ function buscarMedicamentos(texto) {
 function extraerNombreYDNI() {
   const texto = document.body.innerText;
 
-  // Dividir por líneas limpias
-  const lineas = texto.split('\n').map(l => l.trim()).filter(Boolean);
+  // Separar por líneas reales
+  const lineas = texto.split(/\n+/).map(l => l.trim()).filter(Boolean);
 
   let nombre = null;
   let dni = null;
 
-  // Buscar nombre con coma y DNI
   for (const linea of lineas) {
-    if (!nombre && /^[a-záéíóúñ\s]+,\s*[a-záéíóúñ\s]+$/i.test(linea)) {
-      nombre = capitalizarNombre(linea.replace(/\s+/g, ' ').trim());
+    // Buscar nombre en mayúsculas con coma
+    if (!nombre && /^[A-ZÁÉÍÓÚÑ\s]+,\s*[A-ZÁÉÍÓÚÑ\s]+$/.test(linea)) {
+      nombre = capitalizarNombre(linea.replace(',', '').trim());
     }
 
-    if (!dni && /dni\s*:\s*\d+/i.test(linea)) {
-      const match = linea.match(/dni\s*:\s*(\d{6,9})/i);
+    // Buscar DNI en formato "DNI: 12345678"
+    if (!dni && /DNI:\s*\d{6,9}/.test(linea)) {
+      const match = linea.match(/DNI:\s*(\d{6,9})/);
       if (match) dni = match[1];
     }
 
@@ -140,16 +141,17 @@ function extraerNombreYDNI() {
   return { nombre, dni };
 }
 
-// Capitaliza: "iribarren , mario fernando" → "Iribarren Mario Fernando"
 function capitalizarNombre(nombre) {
   return nombre
     .toLowerCase()
-    .replace(',', '') // sacar la coma
     .split(/\s+/)
     .map(p => p.charAt(0).toUpperCase() + p.slice(1))
     .join(' ');
 }
 
+// Test directo
+const datos = extraerNombreYDNI();
+alert(`Nombre: ${datos.nombre}\\nDNI: ${datos.dni}`);
    
 function buscarMedicacionConDosis(texto) {
   const resultados = new Map();
