@@ -1,61 +1,5912 @@
 {
   "medicacion": {
-    "ticagrelor": ["brilinta"],
-    "prasugrel": ["prasu", "procardia", "effient"],
-    "clopidogrel": ["clopi","troken"],
-    "heparina": ["heparina no fraccionada", "hnf", "heparina sodica"],
-    "enoxaparina": ["enoxa", "clexane"],
-    "fondaparinux": ["arixtra"],
-    "dabigatran": ["pradaxa"],
-    "apixaban": ["ixipen", "apixa", "eliquis"],
-    "nitroprusiato": ["nipride"],
-    "dobutamina": ["dobutrex"],
-    "milrinona": ["primacor"],
-    "levosimendan": ["simdax"],
-    "ivabradina": ["procoralan"],
-    "hidralazina": ["apresolina"],
-    "minoxidil": ["loniten"],
-    "nicorandil": ["dancor"],
-    "trimetazidina": ["vastarel"],
-    "ranolazina": ["ranexa"],
-    "colchicina": ["colchicina"],
-    "alopurinol": ["zyloric"],
-    "metformina": ["metformina 850", "glucophage", "dbi"],
-    "losartan": ["losacor", "loplac", "prisonil", "presimax", "cozaar", "paxon", "tacardia", "fensartan", "presimax", "diapresan"],
-    "losartan/hidroclorotiazida": ["losartan/hidrocloro", "losartan/hctz", "paxon d", "loplac d", "losacor d", "tacardia d", "fensartan d", "prisonil d", "presimax d", "diapresan d"],
-     "losartan/amlodipina": ["losartan 50/amlo 5", "losartan 100/5", "losartan 50/5", "losartan/amlo", "paxon a", "loplac a", "losacor a", "tacardia a", "fensartan a", "prisonil a", "presimax a", "diapresan a"],
-    "atorvastatina": ["atorva", "lipitor", "ampliar", "atv"], 
-    "atoravastatina/ezetimibe": ["atorva/ezetimibe", "atorva/eze", "ampliar duo", "atv/ezetimibe"],
-    "rosuvastatina": ["rovartal", "rosuvast", "reovex", "rosuber", "rosu"],
-    "rosuvastatina/ezetimibe": ["rosu/eze", "rosu/ezetimibe", "rosu 20/eze 10", "rosu+eze", "sinlip ez", "rosuvastatina + ezetimibe", "hipolipol ez", "combicol", "liparex duo", "lipocambi plus", "reovex ez", "rosuvast ez", "rovartal ez", "zarator plus", "lipex plus", "rosuber plus"],
-    "simvastatina": ["zocor"],
-    "ac fenofibrico": ["fenofibrato"],
-    "ramipril": ["triatec"],
-    "enalapril": ["renitec", "ieca", "lotrial", "glioten", "tencas"],
-    "bisoprolol": ["biso","concor", "corbis", "bicardil"],
-    "carvedilol": ["carve","dilatrend", "carvedil"],
-    "furosemida": ["furo", "lasix", "furotral", "errolon"],
-    "espironolactona": ["espiro", "espirono", "esporinolactona","aldactone", "lanx", "kenob"],
-    "eplerenona": ["oldren"],
-    "aspirina": ["aas","ac acetilsalicilico", "asa"],
-    "warfarina": ["coumadin"],
-    "rivaroxaban": ["rivaroxa", "xaroban", "xarelto"],
-    "amiodarona": ["atlansil"],
-    "digoxina": ["lanoxin"],
-    "isosorbide mononitrato": ["nsl", "isordil", "medocor"],
-    "amlodipina": ["amlo", "pelmec", "ilduc", "amloc"],
-    "hidroclorotiazida": ["hctz", "diurex", "hidrocloro", "hidroclorotizida"],
-    "insulina": ["glargina", "lantus"],
-    "semaglutide": ["ozempic"],
-    "empaglifozina": ["empa", "edagan", "jardiance", "emadian", "emgliber", "empax", "enclyna", "saglox"],
-    "dapaglifozina": ["dapa", "dapax", "acus", "nedal", "forxiga", "dactilus", "dapaber", "dauran", "fanter", "jarolese"],
-    "allopurinol": ["allopu"],
-    "metoprolol": ["seloken"],
-    "atenolol": ["ateno"],
-    "valsartan": ["sarval","diovan", "vst", "alpertan", "corosan", "diapresan", "dilcoran", "hiperval", "paliax", "racorval", "simultan"],
-    "sacubitrilo/valsartan": ["arnis", "sacu", "sacubitrilo", "dupertan", "neparvis", "entresto"],
-    "diosmina-hesperidina": ["daflon"],
-    "levotiroxina": ["t4","levo"],
-    "tamsulosina": ["tamsu", "aclosan", "denverprost", "reduprost", "sulos", "uroprost"]
+    "apixaban": [
+      "eliquis",
+      "ixipen",
+      "apixa"
+      ],
+    "betahistina": [
+      "audipa",
+      "audipax multidosis",
+      "betahistina richet",
+      "betaserc",
+      "betina",
+      "menie",
+      "microser",
+      "microser forte",
+      "microser ultra",
+      "otevil",
+      "rilif",
+      "ronistina",
+      "ronistina duo"
+    ],
+    "candesartan cilexetil": [
+      "atacand",
+      "candesartan richet",
+      "dacten",
+      "tiadyl"
+    ],
+    "candesartan+hidroclorotiazida": [
+      "atacand d",
+      "dacten d",
+      "tiadyl plus"
+    ],
+    "claritromicina": [
+      "aeroxina",
+      "aeroxina u.d",
+      "claribiotic",
+      "claribiotic u.d",
+      "clarima",
+      "clarimax ud",
+      "claritrom",
+      "claritromicina fabra",
+      "claritromicina richet",
+      "clarovil",
+      "clarovil ud",
+      "clasid",
+      "corixa",
+      "corixa ud",
+      "iset",
+      "iset u.d",
+      "klaricid",
+      "klaricid forte jbe",
+      "klaricid iv iny.f.a",
+      "klaricid ud",
+      "klonacid",
+      "macromicina",
+      "neumodryl",
+      "quotal",
+      "quotal ud",
+      "sofera",
+      "tuclarit"
+    ],
+    "clofedianol+bromhexina": [
+      "cofron ad.jbe",
+      "cofron ped.jbe",
+      "pectoral hebert n.f. jbe",
+      "pectoral hebert pediatrico jbe",
+      "unitos ad.jbe",
+      "unitos ped.jbe"
+    ],
+    "colagenasa+cloranfenicol+asoc.": [
+      "iruxol ung"
+    ],
+    "enzimas digestivas": [
+      "creon"
+    ],
+    "fenofibrato": [
+      "controlip",
+      "sclerofin u.d"
+    ],
+    "fluvoxamina": [
+      "luvo"
+    ],
+    "pinaverio,bromuro": [
+      "dicetel",
+      "nulite"
+    ],
+    "propafenona": [
+      "normorytmin"
+    ],
+    "sodio,divalproato": [
+      "diproval",
+      "divalpre",
+      "exibral",
+      "improval",
+      "logical s",
+      "valcas",
+      "valcote",
+      "valcote er",
+      "valcote iv iny.a",
+      "valcote sprinkle",
+      "valnar"
+    ],
+    "valproico,ac.": [
+      "depakene",
+      "depakene jbe",
+      "exibral jbe jbe",
+      "logical jbe"
+    ],
+    "verapamilo": [
+      "isoptino",
+      "isoptino md",
+      "isoptino retard",
+      "veral rtd"
+    ],
+    "bimatoprost": [
+      "lumigan",
+      "lumigan rc"
+    ],
+    "bimatoprost+timolol": [
+      "ganfort sol.oft",
+      "ganfort ud sol.oft"
+    ],
+    "brimonidina": [
+      "alphagan p sol.oft",
+      "alphagan sol.oft",
+      "brimopress"
+    ],
+    "brimonidina+timolol": [
+      "brimopress t sol.oft",
+      "brit sol.oft",
+      "combigan",
+      "timobrim sol.oft.esteril"
+    ],
+    "carboximetilcelulosa sod.+asoc.": [
+      "lubrol sol.oft",
+      "optive advanced sol.oft",
+      "refresh fusion sol.oft"
+    ],
+    "carboximetilcelulosa sodica": [
+      "aliviama",
+      "aucic",
+      "refresh liquigel",
+      "refresh tears"
+    ],
+    "ciclosporina": [
+      "cipos",
+      "closporil",
+      "inmunosporin",
+      "restasis viales"
+    ],
+    "epinastina": [
+      "alket sol.oft",
+      "epioftal sol.oft",
+      "relestat sol.oft"
+    ],
+    "fluorometolona": [
+      "f m l liquifilm susp.oft",
+      "flarex susp.oft"
+    ],
+    "fluorometolona+asoc.": [
+      "f m l neo liquifilm susp.oft"
+    ],
+    "gatifloxacina": [
+      "gatif forte sol.oft",
+      "gatiflax sol.oftalmica",
+      "gatimicin",
+      "gatimicin forte",
+      "zymaran",
+      "zymaxid fco.gotero"
+    ],
+    "gatifloxacina+prednisolona,acet.": [
+      "zypred susp.oft"
+    ],
+    "glicerina+asoc.": [
+      "micronema tubos",
+      "optive sol.oft"
+    ],
+    "ketorolac": [
+      "acular ls sol.oft",
+      "acular sol.oft",
+      "acuvail viales unids",
+      "dolten",
+      "dolten sl",
+      "dorixina forte nf",
+      "duprac",
+      "duprac sl",
+      "kemanat",
+      "kemanat sublingual",
+      "kerami",
+      "ketorolac fabra",
+      "ketorolac trometamina richet",
+      "poenkerat",
+      "sinalgico",
+      "sinalgico sl",
+      "teledol",
+      "teledol sl",
+      "tenkdol",
+      "zerodol"
+    ],
+    "levobunolol": [
+      "betagan liquifilm"
+    ],
+    "ofloxacina": [
+      "oflox sol.oft",
+      "otoflox gts.oticas"
+    ],
+    "prednisolona+fenilefrina": [
+      "deltar susp.oft",
+      "efecoryl forte susp.oft",
+      "oftaldrop susp.oft",
+      "prednefrin",
+      "prednefrin forte susp.oft"
+    ],
+    "tobramicina": [
+      "bideon biotic colirio",
+      "fotex sol.oft",
+      "gotabiotic colirio",
+      "gotabiotic gel oft",
+      "gotabiotic pack sol.oft",
+      "oftalbrax gts.oft",
+      "radina gts.oft",
+      "tobrabiotic sol.oft",
+      "tobragan",
+      "tobral sol.oft",
+      "tobralep sol.oft.esteril",
+      "tobramicina atlas sol.oft.esteril",
+      "tobramicina dorf sol.oft",
+      "tobrex gts.oft"
+    ],
+    "atropina,sulfato": [
+      "alcon atropina",
+      "klonatropina sol.oft"
+    ],
+    "nafazolina+feniramina": [
+      "mira klonal fco.gotero",
+      "mirus sol.oft",
+      "refenax colirio sol.oft",
+      "visuclar fco.gotero"
+    ],
+    "polietilenglicol+propilenglicol": [
+      "systane drop tainer fco",
+      "systane gel en gotas gel oft.en gotas",
+      "systane ultra sol.oft.esteril"
+    ],
+    "polietilenglicol+propilenglicol+": [
+      "systane hidratacion sp sol.oft.esteril"
+    ],
+    "proparacaina": [
+      "anestalcon fco"
+    ],
+    "propilenglicol": [
+      "systane",
+      "systane balance sol.oft.esteril"
+    ],
+    "tropicamida": [
+      "alcon mydril"
+    ],
+    "adapaleno": [
+      "dermotopic gel",
+      "exogel",
+      "sinac"
+    ],
+    "betametasona+gentamic.+miconazol": [
+      "adenil cr",
+      "betacort plus cassara cr.dermica",
+      "cuta cr",
+      "denvercrem denver farma cr",
+      "depocort biotic cr",
+      "derma",
+      "dermosona fecofar cr",
+      "factor dermico pomo",
+      "gentasol crema cr",
+      "hifamonil crema cr",
+      "lazar cort",
+      "macril cr",
+      "tribiocort cr",
+      "triplex cr",
+      "vagilen dermico cr"
+    ],
+    "betametasona+salicilico,ac.": [
+      "betasalic loc",
+      "betasalic ung",
+      "maxisalic ung"
+    ],
+    "butamirato,citrato": [
+      "dosodos gts",
+      "dosodos jbe",
+      "proking nf jbe",
+      "talasa nf jbe"
+    ],
+    "clobetasol": [
+      "clob-x shampoo",
+      "clobefar crema cr",
+      "clobefar unguento ung",
+      "clobesol cr",
+      "clobesol espuma",
+      "clobesol ung",
+      "dermadex capilar loc",
+      "dermadex cr",
+      "dermadex ung",
+      "dermexane capilar loc",
+      "dermexane cr",
+      "dermexane espuma",
+      "dermexane ung",
+      "klomadex cr",
+      "perfracort",
+      "ribatra",
+      "salac cr",
+      "salac loc",
+      "salac shamp",
+      "salac ung",
+      "salvicutan cr"
+    ],
+    "fluconazol": [
+      "antimicon",
+      "cansis",
+      "damicol",
+      "femixol",
+      "flucoderm",
+      "flucoginkan",
+      "flucolaf",
+      "fluconal",
+      "fluconazol fabra",
+      "fluconazol richet",
+      "fluconazol teva",
+      "fluconazol vannier",
+      "flupec",
+      "fluzol",
+      "fungocina",
+      "fungototal",
+      "honguil plus",
+      "klonarizol",
+      "micolis novo",
+      "micoral fluco",
+      "mutum",
+      "nimic",
+      "periplum",
+      "ponaris",
+      "triflucan"
+    ],
+    "fusidico,ac.": [
+      "acifusin cr",
+      "arzimol",
+      "drum",
+      "fusimed",
+      "fusitop cr",
+      "gelbiotic cr"
+    ],
+    "fusidico,ac.+betametasona": [
+      "acifusin b cr",
+      "arzimol b cr",
+      "drum ß",
+      "fusimed b emuls",
+      "fusimed b otonasal emuls",
+      "gelbiotic plus cr"
+    ],
+    "hidrocortisona": [
+      "alfacort",
+      "alfacort unidosis env",
+      "anusol hc cr",
+      "demacort cr",
+      "hidrocortisona",
+      "hidrocortisona richet",
+      "medrocil",
+      "microsona",
+      "transderma h cr"
+    ],
+    "hidrocortisona+asoc.": [
+      "anusol duo cr",
+      "anusol duo s sup",
+      "anusol hc sup",
+      "hipoglos con hidrocortisona pda"
+    ],
+    "ketoconazol": [
+      "eumicel colageno",
+      "fangan ov",
+      "fitonal",
+      "fitonal cr",
+      "keduo",
+      "ketoconazol fabra",
+      "ketolef",
+      "ketonazol lafedar",
+      "ketonazol lafedar pvo",
+      "micoral",
+      "micoral cr",
+      "micoral shamp",
+      "orifungal cr",
+      "quadion cr",
+      "quadion shamp"
+    ],
+    "levocetirizina": [
+      "analerg",
+      "levomine",
+      "supraler",
+      "tiriz"
+    ],
+    "mebendazol": [
+      "mebendazol fabra",
+      "mebutar",
+      "nemasole",
+      "nemasole ad",
+      "tru m"
+    ],
+    "mebendazol+tinidazol": [
+      "mebutar",
+      "tru"
+    ],
+    "miconazol": [
+      "daktarin gel oral",
+      "deralbine cr",
+      "deralbine loc",
+      "deralbine pvo",
+      "deralbine pvo.en spray",
+      "micopul cr",
+      "micotral"
+    ],
+    "naproxeno": [
+      "alidase",
+      "debril",
+      "mox forte",
+      "naprogen",
+      "naprontag",
+      "naprontag gesic",
+      "naproxeno teva",
+      "naproxphar",
+      "napru",
+      "naprux rapid"
+    ],
+    "naproxeno+carisoprodol": [
+      "naprux disten"
+    ],
+    "salicilico,ac.+asoc.": [
+      "acnoxin loc",
+      "acnoxin spray",
+      "salpad t shamp"
+    ],
+    "sodio,fusidato": [
+      "acifusin ung"
+    ],
+    "tretinoina+asoc.": [
+      "hidrosam t"
+    ],
+    "vit.a+bencetonio,cl.+asoc.": [
+      "hipoglos pda"
+    ],
+    "zinc,undecilenato+asoc.": [
+      "hipoglos cicatrizante pvo"
+    ],
+    "alendronato": [
+      "alenato",
+      "arendal",
+      "brek",
+      "findeclin",
+      "lendronal",
+      "marvil",
+      "osteofene",
+      "regenesis",
+      "silidral",
+      "tilios"
+    ],
+    "allopurinol": [
+      "allopurinol",
+      "allopurinol craveri retard",
+      "allopurinol fabra",
+      "allopurinol gador",
+      "allopurinol gador retard",
+      "allopurinol houde",
+      "colpuril a retard",
+      "puritenk"
+    ],
+    "allopurinol+colchicina": [
+      "artrex retard",
+      "colpuril"
+    ],
+    "arginina": [
+      "lacorene fco"
+    ],
+    "aripiprazol": [
+      "apecur",
+      "arinova",
+      "arinova fco",
+      "arisdar",
+      "arizic",
+      "arlemide",
+      "groven",
+      "ibaral",
+      "irazem",
+      "irazem sol.oral",
+      "lemidal",
+      "sibli"
+    ],
+    "baclofeno": [
+      "baclo",
+      "isedis",
+      "lioresal",
+      "lioresal intratecal"
+    ],
+    "butetamato": [
+      "heliphenicol susp"
+    ],
+    "butimerina+asoc.": [
+      "butimerin pvo"
+    ],
+    "calcio,acetato": [
+      "royen"
+    ],
+    "calcio,carbonato": [
+      "calcio base dupomar",
+      "calcio base vannier",
+      "calcional naranja"
+    ],
+    "calcio,citrato": [
+      "calcimax",
+      "calcimax forte",
+      "calcional citrato"
+    ],
+    "calcio,citrato+vit.d3": [
+      "calcimax d",
+      "calciocit",
+      "calciocit plus",
+      "calcional d",
+      "citramar d"
+    ],
+    "castaño de indias+asoc.": [
+      "castaña de india s.c",
+      "castaña de india s.c. sol"
+    ],
+    "ciprofloxacina": [
+      "argeflo",
+      "atiba",
+      "biotic pharma",
+      "ciapar",
+      "cifloxin sol.oft",
+      "cipro",
+      "cipro xr",
+      "ciprofloxacina denver farma",
+      "ciprofloxacina denver farma sol.oft",
+      "ciprofloxacina dorf sol.oft",
+      "ciprofloxacina duncan",
+      "ciprofloxacina fabra",
+      "ciprofloxacina lazar",
+      "ciprofloxacina richet",
+      "cipromar",
+      "ciprotenk",
+      "cirflox-g",
+      "ciria",
+      "exertial",
+      "floraxina gts.oft",
+      "medaflo",
+      "microsulf",
+      "rexner",
+      "rexner xr",
+      "selket",
+      "septicide",
+      "septocort"
+    ],
+    "clomipramina": [
+      "anafranil",
+      "anafranil a",
+      "anafranil grag",
+      "clomisal dividosis"
+    ],
+    "colchicina": [
+      "colchicina houde",
+      "colchi"
+    ],
+    "condroitin,sulfato+glucosamina": [
+      "asotrex",
+      "asotrex sob",
+      "findol plus sob",
+      "gluco arrumalon duo",
+      "gluco arrumalon duo sob",
+      "glucoduo",
+      "glucotrin forte liquido env",
+      "glucotrin forte sobres",
+      "mecanyl duo",
+      "mecanyl duo gran.sob",
+      "mecanyl k duo gran.sob",
+      "ostatac duo sob"
+    ],
+    "dexametasona": [
+      "decadron",
+      "decadron al",
+      "decadron shock",
+      "dexalaf",
+      "dexameral",
+      "dexametasona",
+      "dexametasona dorf sol.oft",
+      "dexametasona fabra",
+      "dexametasona fecofar",
+      "dexatotal",
+      "duo decadron f.a",
+      "nexadron oftal",
+      "sedesterol gts.oft"
+    ],
+    "dexametasona+neomicina+asoc.": [
+      "dexalergin gts",
+      "dexalergin n sol.atomiz",
+      "isoptomax susp.oft",
+      "isoptomax ung.oft",
+      "neosona",
+      "nexadron",
+      "polyplex susp.oft",
+      "proetztotal sol.p/nebulizar"
+    ],
+    "dexlansoprazol": [
+      "apatri",
+      "arigastril",
+      "dexopral",
+      "ibepral"
+    ],
+    "diclofenac sodico": [
+      "acloxigenac",
+      "blokium",
+      "curinflam a.p",
+      "curinflam iny.a",
+      "diastone",
+      "diastone retard",
+      "diclac",
+      "diclocalm",
+      "diclofenac denver farma",
+      "diclofenac teva",
+      "diclogesic",
+      "diclolam",
+      "difenac",
+      "difenac retard",
+      "dioxafle",
+      "dioxaflex",
+      "dioxaflex gel gel",
+      "dioxaflex iny iny.a",
+      "dioxaflex parches parches",
+      "dioxaflex rapid",
+      "dioxaflex retard",
+      "disipan",
+      "dolvan",
+      "flexiplen",
+      "flogolisin",
+      "iglodine",
+      "kinalgin",
+      "metafle",
+      "nalgifle",
+      "natura fenac gts.oft",
+      "oxa",
+      "oxa gel plus gel",
+      "oxa retard",
+      "rodinac",
+      "venzidiak",
+      "vesalion",
+      "xedenol"
+    ],
+    "duloxetina": [
+      "alacir",
+      "doxaline",
+      "dueri",
+      "duloxin",
+      "duxetin",
+      "nitide",
+      "optibral"
+    ],
+    "escina+asoc.": [
+      "escina omega forte grag",
+      "escina omega gel",
+      "escina omega grag",
+      "venostasin gel"
+    ],
+    "escitalopram": [
+      "arami",
+      "axiomat",
+      "beaplen",
+      "e",
+      "elevopram",
+      "epsiconor",
+      "escipro",
+      "escitalopram teva",
+      "escitalopram vannier",
+      "escitanova",
+      "esciterokam",
+      "lextor",
+      "meridian",
+      "nexdia",
+      "novo humorap",
+      "optiser",
+      "rempec",
+      "rostalopram",
+      "talpram",
+      "zenvas"
+    ],
+    "febuxostat": [
+      "dutrinol",
+      "febuxtat"
+    ],
+    "fenilefrina+asoc.": [
+      "alzaten disgrelent grag",
+      "alzaten gts"
+    ],
+    "fenobarbital": [
+      "alepsal",
+      "fenros",
+      "luminal",
+      "luminaletas"
+    ],
+    "finasteride": [
+      "andropel",
+      "capilfor",
+      "daric",
+      "finasterin",
+      "finterac",
+      "flutiamik",
+      "hpb panalab",
+      "propecia",
+      "proscar",
+      "prosmin",
+      "prostanil",
+      "prostanovag",
+      "prostene",
+      "q-prost",
+      "renacidin",
+      "sutrico",
+      "urototal"
+    ],
+    "gabapentin": [
+      "arapentin",
+      "axilep",
+      "elifer",
+      "logistic",
+      "neurontin",
+      "ultraneural"
+    ],
+    "glucosamina": [
+      "artrilase sob",
+      "asotrex gl sob",
+      "baliartrin",
+      "baliartrin gran.sobres",
+      "belmalen plus sob",
+      "findol sob",
+      "gluco arrumalon",
+      "glucosamina denver farma",
+      "mecanyl",
+      "ostatac"
+    ],
+    "hialuronato sodico+asoc.": [
+      "cruzal l",
+      "iuronico biotic cr"
+    ],
+    "hialuronico,ac.": [
+      "biosol gotas sol.oft.esteril",
+      "biosol lc gts.oft.esteril",
+      "hyalart jga.prell",
+      "iuronicoderm cr",
+      "maxiostenil",
+      "maxiostenil plus"
+    ],
+    "hidralazina": [
+      "hidral",
+      "hydrapres"
+    ],
+    "hidroxipropilmetilcelulosa": [
+      "cool tears sol.oft",
+      "lagrima dorf sol.oft",
+      "latlas tears fco.gotero",
+      "natura lagrimas gts.oft"
+    ],
+    "hierro+vit.b12+folico,ac.": [
+      "acifol fe",
+      "ferranin",
+      "folfirimox",
+      "hemovit",
+      "rexfol",
+      "siderblut",
+      "tenvic"
+    ],
+    "ibandronico,ac.": [
+      "adromu",
+      "bantuc",
+      "bonviva",
+      "brexell plus",
+      "deltro",
+      "disdual",
+      "elasterin",
+      "femorel",
+      "femorel i.v. jga.prell",
+      "ibandronato richet",
+      "ibanleg",
+      "idena",
+      "intersules",
+      "mesel",
+      "modifical",
+      "oseum",
+      "posclim",
+      "silidral uno",
+      "tabtil"
+    ],
+    "lacosamida": [
+      "comil",
+      "lacoma",
+      "lacotem"
+    ],
+    "leflunomida": [
+      "afiancen",
+      "arava",
+      "filartros",
+      "fludart",
+      "fluxap",
+      "inmunoartro",
+      "lefluar",
+      "leflunomida sc"
+    ],
+    "litio,carbonato": [
+      "ceglution",
+      "ceglution xr"
+    ],
+    "memantine": [
+      "carrier",
+      "carrier xr",
+      "conexine",
+      "exem",
+      "fentina",
+      "lucide",
+      "lucidex xr",
+      "memantina richet",
+      "memantina teva",
+      "merital",
+      "neuroplus",
+      "neuroplus sol.oral",
+      "neuroplus xr",
+      "precel",
+      "prilben",
+      "pronervon",
+      "tonibral",
+      "tonibral xr"
+    ],
+    "mesalazina": [
+      "bufexan ap",
+      "conductasa",
+      "exotran",
+      "mezavant",
+      "pentasa",
+      "pentasa enema",
+      "salofalk",
+      "salofalk espuma rectal",
+      "xalazina",
+      "yolecol"
+    ],
+    "mirtazapina": [
+      "bilanz",
+      "comenter",
+      "noxibel",
+      "remeron",
+      "tetrazic"
+    ],
+    "modafinilo": [
+      "forcilin",
+      "intensit",
+      "vigicer",
+      "visper"
+    ],
+    "naltrexona": [
+      "nalcotre",
+      "revez"
+    ],
+    "otilonio,bromuro": [
+      "bromotil",
+      "drimavin",
+      "motid",
+      "pasmino",
+      "piomat",
+      "spasmoctyl"
+    ],
+    "paroxetina": [
+      "afenexil",
+      "aropa",
+      "datevan",
+      "meplar",
+      "meplar lc",
+      "mixegan",
+      "neurotro",
+      "optipar",
+      "pamoxet",
+      "paroxetina teva",
+      "paroxin",
+      "paxil cr",
+      "pondera",
+      "psicoasten",
+      "psicoasten lc",
+      "sostel",
+      "tiari",
+      "tiarix cr"
+    ],
+    "pregabalina": [
+      "axual",
+      "clasica",
+      "dolgenal",
+      "doloneutin",
+      "gavaneural",
+      "gavin",
+      "kabian",
+      "linprel",
+      "linprel multidosis",
+      "lunel",
+      "lyrica",
+      "mystika",
+      "neuristan",
+      "neuristan multidosis",
+      "pgb",
+      "plenica",
+      "prebanal",
+      "prebictal",
+      "prebien",
+      "pregabalina richet",
+      "pregabalina vannier",
+      "principia",
+      "principia practidosis",
+      "seripran"
+    ],
+    "rifaximina": [
+      "coloximina",
+      "lisibacter",
+      "rifadom",
+      "rifaxtril",
+      "rociamin"
+    ],
+    "tamsulosina": [
+      "aclosan",
+      "denverprost",
+      "diufortan",
+      "flocpro",
+      "lostam",
+      "omnic",
+      "omnic ocas",
+      "prostoklar",
+      "reduprost",
+      "secotex ocas",
+      "sulos",
+      "tamsulosina richet",
+      "tamsulosina teva",
+      "tamsuna",
+      "tansiloprost",
+      "tansiloprost retard",
+      "tarusol",
+      "toloxane",
+      "travelgum",
+      "uralos cr",
+      "uriflu",
+      "urocetina",
+      "uroprost-q"
+    ],
+    "tioctico,ac.": [
+      "at",
+      "biletan",
+      "biletan forte",
+      "biletan forte iny.a",
+      "ciagen",
+      "gabsik",
+      "neuro biletan",
+      "neurotioct",
+      "neutracol",
+      "priotic",
+      "thiogamma",
+      "tinactol",
+      "tioctan",
+      "tioctic temis",
+      "tiodrix hr",
+      "tioneurol"
+    ],
+    "tramadol": [
+      "ana-q",
+      "calmador",
+      "calmador cb",
+      "calmador retard",
+      "cloq",
+      "cloq gts",
+      "lixidol",
+      "lixidol gotas",
+      "trama klosidol",
+      "trama klosidol gotas",
+      "tramadolten",
+      "tramadolten retard",
+      "tramal",
+      "tramal long",
+      "tramanovag",
+      "tramaxedenol",
+      "tramustin",
+      "ultracalmans",
+      "ultragesic cb",
+      "ultragesic gotas"
+    ],
+    "trifluoperazina": [
+      "cuait trifluoperazina"
+    ],
+    "troxerrutina+escina": [
+      "troxeven forte",
+      "tubarine",
+      "tubarine gel pomo"
+    ],
+    "ursodesoxicolico,ac.": [
+      "audecol",
+      "dexo",
+      "udca",
+      "urdecole",
+      "ursodiol",
+      "ursofalk",
+      "ursofalk susp.oral",
+      "ursoma",
+      "ursotop",
+      "urzac",
+      "urzac forte",
+      "utral"
+    ],
+    "venlafaxina": [
+      "efexor xr",
+      "elafa",
+      "elafax lp",
+      "elafax xr",
+      "faxipaw",
+      "ganava",
+      "maxibral xr",
+      "psiseven",
+      "quilare",
+      "quilarex xr",
+      "sesaren",
+      "sesaren xr",
+      "sunvex lp",
+      "venlifax xr"
+    ],
+    "vit.c+citroflavonoide+asoc.": [
+      "epiteliol c"
+    ],
+    "vit.d3": [
+      "crada sol.oral",
+      "deblax",
+      "devisal cb",
+      "devisal f.a.bebible",
+      "gadoferol cb",
+      "gadoferol sol.oral",
+      "oravil cb",
+      "oravil f.a.beb",
+      "oravil gotas fco.gotero",
+      "osteodyn",
+      "osteodyn sol.oral",
+      "oxivital f.a.bebible",
+      "raquiferol d",
+      "sterogyl",
+      "sterogyl f.a.beb",
+      "subical cb",
+      "subical solucion oral",
+      "testri cb",
+      "testri sol.oral",
+      "trip d"
+    ],
+    "warfarina": [
+      "circuvit"
+    ],
+    "zolpidem": [
+      "ambien cr",
+      "dormi-ros",
+      "dormilan",
+      "nocte",
+      "somit",
+      "somit cr",
+      "somit intersueño",
+      "sumenan",
+      "zoldem",
+      "zolodorm",
+      "zolpidem teva"
+    ],
+    "atracurio,besilato": [
+      "tracrium"
+    ],
+    "nadroparina calcica": [
+      "fraxiparine jga.prell"
+    ],
+    "alprazolam": [
+      "alpla",
+      "alplax xr",
+      "alprazol",
+      "alprazolam denver farma",
+      "alprazolam microsules",
+      "alprim",
+      "amzia",
+      "bestrol",
+      "emeral",
+      "novazolam",
+      "prino",
+      "pta",
+      "rospaz",
+      "tensium",
+      "tranquinal",
+      "xana"
+    ],
+    "amlodipina": [
+      "amlo",
+      "amze",
+      "anexa",
+      "angiofilina",
+      "arteriosan",
+      "brancilina",
+      "calpres",
+      "cardiore",
+      "cardiorex cdo",
+      "cardivas",
+      "coroval",
+      "hipertensal",
+      "ilduc",
+      "indalten",
+      "mitokor",
+      "oteramina",
+      "pelmec",
+      "terloc",
+      "tervalon",
+      "zundic"
+    ],
+    "atorvastatin": [
+      "atorva",
+      "atv",
+      "ampliar",
+      "ateroclar",
+      "atorma",
+      "atorvastan",
+      "atorvastatin richet",
+      "atorvastatina fabra",
+      "faboxim",
+      "finlipol",
+      "lipare",
+      "lipend",
+      "lipibec",
+      "lipifen",
+      "lipitor",
+      "lipocambi",
+      "lipodren",
+      "lipokemia",
+      "liponorm",
+      "lipostop",
+      "lipovastatin klonal",
+      "normalip",
+      "normolipol",
+      "plan",
+      "ronator",
+      "torivas",
+      "vanator",
+      "vastina",
+      "zarator"
+    ],
+    "celecoxib": [
+      "celebre"
+    ],
+    "doxazosina": [
+      "cardura",
+      "doxasin"
+    ],
+    "eplerenona": [
+      "aldactone ep",
+      "eplerona",
+      "etiles",
+      "lanx ep",
+      "oldren",
+      "suficard"
+    ],
+    "estriol": [
+      "colpoestriol cr",
+      "colpoestriol ov",
+      "menoclim crema cr",
+      "menoclim ov",
+      "orgestriol cr.vag",
+      "orgestriol ov"
+    ],
+    "latanoprost": [
+      "glaucogesic fco.got.sol.oft",
+      "glaucostat",
+      "klonaprost",
+      "latanofla",
+      "latanoprost dorf",
+      "louten emuls",
+      "oftalpres sol.oft.esteril",
+      "xalatan gts.oft"
+    ],
+    "latanoprost+timolol": [
+      "glaucogesic t sol.oft",
+      "glaucostat t gts.oft",
+      "latimodorf gts.oft",
+      "louten t colirio",
+      "xalacom gts.oft"
+    ],
+    "metildopa": [
+      "aldomet",
+      "hipermet"
+    ],
+    "nandrolona": [
+      "deca-durabolin"
+    ],
+    "sertralina": [
+      "anilar",
+      "asertral",
+      "ateni",
+      "bicromil",
+      "dimena",
+      "erta",
+      "insertec",
+      "serlina",
+      "sertralina rospaw",
+      "sertralina teva",
+      "sertranova",
+      "servanta",
+      "vunot",
+      "zoloft",
+      "zox"
+    ],
+    "sildenafil": [
+      "activil masticable",
+      "bifort",
+      "bifort-m",
+      "bifort-m frut",
+      "expit",
+      "firmel",
+      "forzak",
+      "magnus",
+      "segure",
+      "super-o",
+      "viagra",
+      "vima",
+      "vimax flash",
+      "viripotens",
+      "viripotens m frut",
+      "viripotens m menta",
+      "vorst",
+      "vorst-m"
+    ],
+    "tirofiban": [
+      "agrastat"
+    ],
+    "tolterodina": [
+      "breminal",
+      "detrusitol",
+      "toltem",
+      "urginol",
+      "urginol sr"
+    ],
+    "ziprasidona": [
+      "zeldo"
+    ],
+    "atenolol": [
+      "atel",
+      "atelsta",
+      "atenoblock",
+      "atenolol",
+      "atenolol gador",
+      "atenolol microsules",
+      "plenacor",
+      "prenormine",
+      "vericordin"
+    ],
+    "atenolol+clortalidona": [
+      "prenoretic"
+    ],
+    "budesonida+glicopirronio+formote": [
+      "breztri aerosphere aerosol"
+    ],
+    "budesonide": [
+      "aerovial fco",
+      "aerovial hfa aer",
+      "budecort enema",
+      "budenofalk espuma rectal",
+      "budeson nebu sol",
+      "budesonida df bronquial aerosol",
+      "budesonida df nebu env",
+      "entocort",
+      "exudrol bude sol",
+      "hypersol b",
+      "neumocort + aeromed",
+      "neumocort hfa",
+      "neumotex nebu env",
+      "proetzonide nebu fco",
+      "pulmolisoflam c/aerocamara aer",
+      "pulmolisoflam pediatrico c/optichamber aer",
+      "rino-b",
+      "spirocort turbuhaler"
+    ],
+    "budesonide+formoterol": [
+      "formovent + bude",
+      "frevia",
+      "lierbron",
+      "maxivent",
+      "neumocort plus",
+      "neumoterol",
+      "neumoterol aerosol",
+      "symbicort turbuhaler",
+      "symbicort-forte turbuhaler",
+      "symbicort-m turbuhaler"
+    ],
+    "candesartan cilexetil+felodipina": [
+      "atacand duo"
+    ],
+    "dapaglifozina": [
+      "dapa",
+      "dactilus",
+      "dagliben",
+      "dapa",
+      "dapaber",
+      "fanter",
+      "forxiga",
+      "glifosin",
+      "jalorese",
+      "nedal"
+    ],
+    "esomeprazol": [
+      "nexium"
+    ],
+    "felodipina": [
+      "plendil"
+    ],
+    "formoterol": [
+      "oxis turbuhaler"
+    ],
+    "lisado bacteriano": [
+      "broncho-vaxom adultos",
+      "broncho-vaxom niños sobres",
+      "ismigen",
+      "luivac",
+      "ommunal adultos",
+      "ommunal niños",
+      "urovaxom"
+    ],
+    "lisinopril": [
+      "lisinal",
+      "tensopril",
+      "zestril"
+    ],
+    "metoprolol": [
+      "belozok"
+    ],
+    "naproxeno+esomeprazol": [
+      "vimovo",
+      "xina"
+    ],
+    "quetiapina": [
+      "atipina",
+      "biatri",
+      "biatrix xr",
+      "dendrite",
+      "dominium",
+      "etiasel",
+      "etiasel xr",
+      "inquetia",
+      "kemoter",
+      "kemoter xr",
+      "kenantis",
+      "qtp",
+      "quetianova",
+      "quetiapina vannier",
+      "quetiaros",
+      "quetiazic",
+      "quetiazic xr",
+      "rostrum",
+      "rostrum xr",
+      "seroquel",
+      "seroquel xr",
+      "vespara"
+    ],
+    "roflumilast": [
+      "daxas",
+      "lemast",
+      "plusmuv"
+    ],
+    "rosuvastatina": [
+      "rosu",
+      "rosuva",
+      "aprentice",
+      "artomey",
+      "astende",
+      "ateronova",
+      "bilip",
+      "colestra",
+      "crestor",
+      "hipolipol",
+      "lipe",
+      "lipoglutaren",
+      "mesoterol",
+      "nodis",
+      "nonlipid",
+      "parasul",
+      "rabloc",
+      "reove",
+      "rostan",
+      "rosu",
+      "rosuber",
+      "rosucol",
+      "rosufec",
+      "rosufen",
+      "rosulip",
+      "rosustatin",
+      "rosuvast",
+      "rosuvastatina richet",
+      "rovartal",
+      "rovastane",
+      "roxolan",
+      "sinlip",
+      "tialipol",
+      "turbulina"
+    ],
+    "saxagliptina": [
+      "onglyza"
+    ],
+    "saxagliptina+metformina clorh.": [
+      "kombiglyze xr"
+    ],
+    "ticagrelor": [
+      "brilinta",
+      "tica",
+      "ticazan"
+    ],
+    "zolmitriptan": [
+      "zomigon"
+    ],
+    "azitromicina": [
+      "azibiotic",
+      "azitro",
+      "azitromicina richet",
+      "azitromicina richet pvo.p/susp.oral",
+      "azitrona klonal",
+      "clearsing",
+      "cronopen",
+      "cronopen susp",
+      "fabramicina",
+      "izotrop",
+      "macroma",
+      "macromax pediatrico",
+      "misultina",
+      "misultina susp",
+      "neblic",
+      "novozitron",
+      "orobiotic",
+      "sitro",
+      "talcilina",
+      "tanezo",
+      "triamid",
+      "tritab",
+      "tritab susp.oral",
+      "zitroma"
+    ],
+    "diclofenac dietilamina": [
+      "algicler gel dermico gel",
+      "banoclus gel pomo",
+      "blokium gel",
+      "curinflam gel",
+      "diclogesic gel pomo",
+      "iglodine gel gel",
+      "nalgiflex gel gel",
+      "oxa gel gel"
+    ],
+    "praziquantel": [
+      "prazitral"
+    ],
+    "rifampicina": [
+      "rifadin",
+      "rifalep",
+      "rifampicina aa richet",
+      "rifampicina richet",
+      "rifampicina richet jbe"
+    ],
+    "salbutamol": [
+      "aerolep aer.inh.c/adap",
+      "aircosalm fco",
+      "aircosalm hfa aer.inh.c/adap",
+      "microterol",
+      "salbuden hfa con aerocamara df",
+      "salbuden inhalador hfa",
+      "salbuneb fco",
+      "salbutamol denver farma sol.p/nebul",
+      "salbutamol fabra",
+      "salbutral aer",
+      "salbutral c/aeromed aer.hfa",
+      "ventolin hfa aer.inh.c/aplic",
+      "ventolin sol.p/nebul"
+    ],
+    "simeticona": [
+      "aesim",
+      "carbogasol forte",
+      "carbogasol liq",
+      "factor ag",
+      "factor ag forte emuls",
+      "factor ag gotas ped.gts",
+      "simecon",
+      "simecon pediatrico gts",
+      "simeticona cetus"
+    ],
+    "sulfadiazina de plata": [
+      "sulfatral cr"
+    ],
+    "tobramicina+dexametasona": [
+      "bideon biotic plus colirio",
+      "biocort fco.gotero",
+      "decadron con tobramicina susp.oft",
+      "fotadex sol.oft",
+      "fotadex ung.oft",
+      "gotabiotic f colirio",
+      "gotabiotic f ung.oft",
+      "purpumicina susp.oft",
+      "radina dex gts.oft",
+      "tobrabiotic d susp.oft",
+      "tobradex susp.oft",
+      "tobradex ung",
+      "tobralep dx susp.oft.esteril",
+      "tobratlas dexa gts.oft"
+    ],
+    "vit.b,complejo": [
+      "bago b",
+      "becozym grag",
+      "becozym nf a",
+      "cobenexol fuerte",
+      "lisinfos",
+      "poli b fuerte",
+      "tanvimil b",
+      "trisel"
+    ],
+    "vit.b1": [
+      "tiamina"
+    ],
+    "accesorio": [
+      "accu-chek fastclix lancetas",
+      "accu-chek softclix new lancetas",
+      "clikstar disposit.iny.insulina",
+      "lancetas bd ultrafine",
+      "lancetas gentle lancetas",
+      "lancetas ultra soft lancetas",
+      "one touch delica lancetas",
+      "one touch delica plus lancetas"
+    ],
+    "acenocumarol": [
+      "acenocoumarol rospaw",
+      "azecar",
+      "fortonol",
+      "sintrom"
+    ],
+    "acetilcarnitina": [
+      "neure",
+      "neuroactil"
+    ],
+    "alprazolam+sulpirida": [
+      "alplax digest caplets",
+      "tranquinal soma"
+    ],
+    "amitriptilina": [
+      "amiptril",
+      "fiorda",
+      "tryptalgin",
+      "tryptanol"
+    ],
+    "losartan+amlodipina": [
+      "losartan/amlo",
+      "losartan/amlodipina",
+      "losartan 50/5",
+      "losartan 100/5",
+      "losartan 100/amlo 5",
+      "losartan 50/amlo",
+      "losartan 50/amlo 5",
+      "arteriosan",
+      "cartan ma",
+      "fensartan unima",
+      "ildusartan",
+      "losacor a",
+      "niten ma",
+      "pelmec at",
+      "pelmec ma",
+      "presimax a",
+      "terloc ma"
+    ],
+    "amoxicilina": [
+      "amixen",
+      "amixen duo",
+      "amoxi",
+      "amoxi duo mar",
+      "amoxi duo mar susp",
+      "amoxicilina fecofar",
+      "amoxicilina fecofar duo",
+      "amoxicilina richet",
+      "amoxicilina richet duo",
+      "amoxicler",
+      "amoxidal",
+      "amoxidal duo",
+      "amoxidal duo susp",
+      "amoxidal ped",
+      "amoxitenk",
+      "bioxilina",
+      "bioxilina duo",
+      "cliacil",
+      "darzitil",
+      "darzitil duo",
+      "fabamo",
+      "fabamox plus",
+      "grinsil",
+      "grinsil duo",
+      "nobactam",
+      "trifamo",
+      "trifamox duo",
+      "trifamox duo susp",
+      "trifamox duo susp susp"
+    ],
+    "amoxicilina+ambroxol": [
+      "amoxidal respiratorio",
+      "amoxidal respiratorio duo",
+      "amoxidal respiratorio duo susp",
+      "amoxidal respiratorio ped",
+      "fabamox bronquial",
+      "grinsil respiratorio duo",
+      "grinsil respiratorio nf",
+      "nobactam bronquial",
+      "trifamox bronquial duo",
+      "trifamox bronquial duo susp"
+    ],
+    "amoxicilina+brovanexina": [
+      "trifamox bronquial"
+    ],
+    "amoxicilina+sulbactam": [
+      "trifamox ibl",
+      "trifamox ibl duo"
+    ],
+    "ampicilina": [
+      "ampicilina richet",
+      "ampigen",
+      "trifacilina",
+      "trifacilina forte jbe"
+    ],
+    "atenolol+asoc.": [
+      "plenacor d",
+      "vericordin"
+    ],
+    "biperideno": [
+      "akineton",
+      "biperideno rospaw",
+      "biperideno vannier"
+    ],
+    "bromazepam": [
+      "atemperator",
+      "creosedin",
+      "estomina",
+      "lexotanil",
+      "neurozepam",
+      "nulastres",
+      "octanyl"
+    ],
+    "carbamazepina": [
+      "actinerval",
+      "c.m.p",
+      "carbamat",
+      "carbamazepina denver farma",
+      "carbamazepina fabra",
+      "conformal",
+      "conformal ap",
+      "elebe",
+      "tegretol",
+      "tegretol jbe"
+    ],
+    "carvedilol": [
+      "antibloc",
+      "carve",
+      "bidecar",
+      "bidecar cr",
+      "cardionorm",
+      "cartiato",
+      "carvedil",
+      "carvedil retard",
+      "carvedilol richet",
+      "carvicord",
+      "carvipaw",
+      "cloraten",
+      "corafen",
+      "corubin",
+      "dilatrend",
+      "dilatrend ap",
+      "duobloc",
+      "entarsol",
+      "filten",
+      "filten lp",
+      "hipoten klonal",
+      "isobloc",
+      "isobloc cr",
+      "kollosteril",
+      "rodipal",
+      "vedilep",
+      "veraten",
+      "veraten ud"
+    ],
+    "carvedilol+hidroclorotiazida": [
+      "carvedil d",
+      "dilatrend d",
+      "filten d",
+      "isobloc d"
+    ],
+    "cefalexina": [
+      "butefina",
+      "butefina duo",
+      "cefagrand",
+      "cefalexina argentia",
+      "cefalexina argentia duo",
+      "cefalexina fabra",
+      "cefalexina fecofar",
+      "cefalexina richet",
+      "cefosporen",
+      "ceporexin",
+      "ceporexin duo",
+      "ceporexin ped",
+      "fabotop",
+      "keforal",
+      "ribamicin",
+      "septilisin",
+      "septilisin duo",
+      "sinurit"
+    ],
+    "cefazolina": [
+      "cefalomicina",
+      "cefazolina richet"
+    ],
+    "cefixima": [
+      "novacef",
+      "vixcef"
+    ],
+    "citalopram": [
+      "citta",
+      "humorap",
+      "psiconor",
+      "zentius"
+    ],
+    "clonazepam": [
+      "clona",
+      "clonagin",
+      "clonagin gts",
+      "clonagin sl",
+      "clonasedan",
+      "clonax rapid",
+      "clonazepam denver farma",
+      "clonazepam rospaw",
+      "cloner",
+      "cloner gts",
+      "diocam",
+      "diocam sl",
+      "edictum",
+      "induzepam",
+      "leptic",
+      "neuryl",
+      "neuryl flash",
+      "neuryl gotas gts",
+      "quazemic",
+      "quazemic gts",
+      "quazemic sl",
+      "ribocler",
+      "rivotril",
+      "solfidin",
+      "solfidin flash"
+    ],
+    "clopidogrel": [
+      "antiplaq",
+      "clodinarel",
+      "clopi",
+      "clodrel",
+      "clopidogrel richet",
+      "clopidogrel rospaw",
+      "clopilep",
+      "danir",
+      "micro-cape",
+      "monre",
+      "nabratin",
+      "nadenel",
+      "nefazan",
+      "plataca",
+      "plavi",
+      "pleyar",
+      "triurol",
+      "troken"
+    ],
+    "darifenacina": [
+      "contine",
+      "darifin",
+      "darina",
+      "darisec",
+      "enable"
+    ],
+    "dehidrocolico,ac.+asoc.": [
+      "bil",
+      "zimerol"
+    ],
+    "desvenlafaxina": [
+      "alfaxin",
+      "deslafa",
+      "drosi",
+      "fapris",
+      "ixium",
+      "pristiq",
+      "velde"
+    ],
+    "diclofenac potasico": [
+      "befol",
+      "diclomar",
+      "dioxaflex migra",
+      "dioxaflex susp",
+      "metaflex susp",
+      "oxa",
+      "rodinac",
+      "vesalion",
+      "vimultisa p"
+    ],
+    "diclofenac potasico+paracetamol": [
+      "algicler",
+      "artro red",
+      "befol plus",
+      "blokium gesic",
+      "blokium gesic forte",
+      "diclogesic forte",
+      "diclomar gesic",
+      "dioxaflex gesic",
+      "flexiplen",
+      "metaflex gesic",
+      "metaflex gesic forte",
+      "oxagesic",
+      "oxagesic forte",
+      "panclogesic",
+      "paracetamol forte raffo",
+      "rodinac gesic",
+      "rodinac gesic f",
+      "tafirol artro",
+      "vesalion gesic",
+      "xedenol gesic"
+    ],
+    "diclofenac sodico+codeina": [
+      "dolofrix plus",
+      "novo klosidol e-",
+      "oxa forte"
+    ],
+    "diclofenac sodico+omeprazol": [
+      "blokium protect",
+      "dioxaflex protect"
+    ],
+    "diclofenac sodico+paracetamol": [
+      "dioxaflex cb gesic",
+      "oxagesic cb"
+    ],
+    "diclofenac+pridinol": [
+      "befol flex",
+      "blokium flex",
+      "blokium flex iny.a.sol",
+      "diastone flex",
+      "diclofenac pridinol teva",
+      "diclogesic relax",
+      "diklophar flex",
+      "dioxaflex cb plus",
+      "dioxaflex plus",
+      "dioxaflex plus iny.a",
+      "fabogesic plen",
+      "iglodine flex",
+      "metaflex plus",
+      "metaflex plus cb",
+      "nalgiflex relax",
+      "oxadisten",
+      "oxadisten cb",
+      "oxadisten cr",
+      "pancloflex",
+      "rodinac flex",
+      "venzidiak flex",
+      "vesalion flex",
+      "vimultisa flex",
+      "xedenol flex",
+      "xedenol flex cb"
+    ],
+    "diclofenac+vit.b,complejo": [
+      "dioxaflex",
+      "dolo nervobion",
+      "nervo xedenol"
+    ],
+    "diclofenac+vit.b12+betametasona": [
+      "blokium b",
+      "diastone b",
+      "difenac forte",
+      "dioxaflex b",
+      "flexiplen b",
+      "metaflex b",
+      "oxa b",
+      "panclo b",
+      "rodinac b",
+      "vesalion b",
+      "virobron b",
+      "xedenol b"
+    ],
+    "diltiazem": [
+      "acali",
+      "acalix ap",
+      "acalix cd",
+      "acalix cronos",
+      "hart",
+      "incoril",
+      "incoril ap",
+      "incoril monodosis"
+    ],
+    "diosmina": [
+      "diosmin crema pomo",
+      "flebon",
+      "flebotropin"
+    ],
+    "diosmina+hesperidina micronizada": [
+      "aliviafleb",
+      "aturen",
+      "daflon",
+      "diosmin",
+      "dipemina",
+      "flebotropin",
+      "flevoma",
+      "jatamansin plus",
+      "milcanor",
+      "terbenol duo",
+      "terbenol ud sob",
+      "varinon",
+      "vedipal"
+    ],
+    "enalapril": [
+      "enala",
+      "ieca",
+      "arteriopril",
+      "ecaprilat",
+      "enalapril richet",
+      "enaldun",
+      "enatral",
+      "fabotensil",
+      "gadopril",
+      "glioten",
+      "kinfil",
+      "lotrial",
+      "maxen",
+      "nalapril",
+      "presi regul",
+      "priltenk",
+      "renitec",
+      "sulocten",
+      "tencas",
+      "vapresan"
+    ],
+    "enalapril+hidroclorotiazida": [
+      "co-renitec",
+      "gadopril d",
+      "gliotenzide",
+      "kinfil d",
+      "lotrial d",
+      "lotrial d-",
+      "maxen d",
+      "presi regul d",
+      "sulocten d",
+      "tencas d",
+      "vapresan diur"
+    ],
+    "ergotamina+cafeina+asoc.": [
+      "migra dioxadol",
+      "migral",
+      "migral sup",
+      "solacil",
+      "tetralgin",
+      "tetralgin novo"
+    ],
+    "eritromicina": [
+      "eritrofarm colirio",
+      "eritrofarm ung.oft.unidosis",
+      "eritromicina atlas gts.oft",
+      "eritromicina elea gts",
+      "eritromicina elea ung",
+      "eritromicina fabra",
+      "eritromicina klonal",
+      "eritroplos ung.oft",
+      "kitacne pomo",
+      "oftalmolets gts.oft.prep.extemp",
+      "pantomicina",
+      "trixne",
+      "trixne toallitas desc"
+    ],
+    "etonogestrel+etinilestradiol": [
+      "circlet anillo vaginal sob",
+      "ellering anillo vaginal sob"
+    ],
+    "etoricoxib": [
+      "arcoxia",
+      "blokium co",
+      "cox-quin",
+      "coxal",
+      "craco",
+      "doloco",
+      "doricoxib",
+      "ericob",
+      "eti",
+      "etore",
+      "flogoco",
+      "flogocox cb",
+      "foldo",
+      "kempo",
+      "rodico",
+      "siate",
+      "talgia",
+      "xumer"
+    ],
+    "fenofibrico,ac.": [
+      "craveril xr",
+      "gadolip",
+      "lipo plus c",
+      "lipoma",
+      "magnofen",
+      "magnofen tab",
+      "procetoken xr",
+      "serubel"
+    ],
+    "fluoxetina": [
+      "alental",
+      "animex-on",
+      "equilibrane",
+      "fluoxetina fabra",
+      "fluoxetina teva",
+      "foxetin",
+      "nervosal",
+      "neupa",
+      "saurat"
+    ],
+    "ftalilsulfatiazol+asoc.": [
+      "carbomax",
+      "estreptocarbocaftiazol",
+      "lefanteril",
+      "opocarbon"
+    ],
+    "gemfibrozil": [
+      "gedun",
+      "hipolixan",
+      "lopid",
+      "lopid ud"
+    ],
+    "gentamicina": [
+      "gentamicin",
+      "gentamicin gts.oft",
+      "gentamicina (como sulfato) richet",
+      "gentamicina fabra cr",
+      "glevomicina",
+      "plurisemina"
+    ],
+    "hidroclorotiazida": [
+      "hctz",
+      "hidrocloro",
+      "diural",
+      "diure",
+      "tandiur"
+    ],
+    "hidroclorotiazida+amilorida": [
+      "diurex a",
+      "hidrenox a",
+      "moduretic",
+      "ren-ur"
+    ],
+    "ibuprofeno": [
+      "actron",
+      "actron pediatrico",
+      "afebril forte",
+      "dolorsyn",
+      "fabogesic",
+      "febratic",
+      "ibucler",
+      "ibucler suspension",
+      "ibufabra",
+      "ibufabra susp",
+      "ibufec",
+      "ibufull",
+      "ibumar",
+      "ibupirac",
+      "ibupirac gotas susp.oral gts",
+      "ibupirac suspension",
+      "ibupiretas jr",
+      "ibuprofeno",
+      "ibuprofeno fecofar",
+      "ibuprofeno fecofar susp.oral",
+      "ibutenk",
+      "ibuzidine"
+    ],
+    "ibuprofeno+pseudoefedrina": [
+      "ibunastizol"
+    ],
+    "isoefedrina+asoc.": [
+      "nastizol"
+    ],
+    "isosorbide,mononitrato": [
+      "medocor",
+      "medocor ap",
+      "monotrin"
+    ],
+    "ketorolac trometamina": [
+      "calmofar sl",
+      "dirolac sl",
+      "ketial",
+      "ketial rapid",
+      "ketomar",
+      "ketomar sl",
+      "zerodol"
+    ],
+    "levetiracetam": [
+      "callexe",
+      "callexe sol.oral",
+      "callexe xr",
+      "equilea",
+      "keppra",
+      "keppra iv",
+      "keppra sol.oral",
+      "lafonten",
+      "levaxon",
+      "levecom",
+      "levecom soluci¿n sol.oral",
+      "levecom xr",
+      "levenova",
+      "levetiracetam richet",
+      "levital",
+      "levital sol.oral",
+      "levron",
+      "molival",
+      "racetam",
+      "vecetam"
+    ],
+    "levodopa+carbidopa": [
+      "lebocar",
+      "lecarge",
+      "parkinel",
+      "sinemet",
+      "sinemet cr"
+    ],
+    "loratadina+betametasona": [
+      "ciprocort l",
+      "corticas l",
+      "corticas l sol.oral",
+      "corticas l ud",
+      "cortistamin l",
+      "histamino corteroid l",
+      "histamino corteroid l jbe",
+      "lisaler ß",
+      "nularef-cort",
+      "sinaler b",
+      "sinaler b jbe"
+    ],
+    "lorazepam": [
+      "aplacasse",
+      "calmatron",
+      "emotival",
+      "kalmalin",
+      "lorazepan chobet",
+      "plardo",
+      "sidenar",
+      "trapa",
+      "trapax sublingual"
+    ],
+    "losartan": [
+      "antipresol",
+      "cartan",
+      "corticosan",
+      "cozaare",
+      "enromic",
+      "fensartan",
+      "fensartan cronos",
+      "fraban",
+      "jesan",
+      "klosartan",
+      "loctenk",
+      "loplac",
+      "loplac xr",
+      "lorebil",
+      "losacor",
+      "losartan pfizer",
+      "losartan richet",
+      "losartan techspere",
+      "losartan vannier",
+      "niten",
+      "paxon",
+      "paxon xr",
+      "presima",
+      "presinor",
+      "prisonil",
+      "tacardia",
+      "tacicul",
+      "temisartan",
+      "vasexten",
+      "vinte"
+    ],
+    "losartan+hidroclorotiazida": [
+      "losartan/hctz",
+      "losartan/hidro",
+      "losartan/hidroclo",
+      "losartan 100/12.5",
+      "losartan 50/25",
+      "losartan 100/HCTZ 12.5",
+      "losartan 50/12.5",
+      "losartan 50-hctz",
+      "antipresol d",
+      "cartan d",
+      "cozaarex d",
+      "enromic d",
+      "fensartan d",
+      "klosartan-d",
+      "loctenk d",
+      "loplac d",
+      "losacor d",
+      "niten d",
+      "paxon d",
+      "presimax d",
+      "presinor d",
+      "prisonil d",
+      "tacardia d",
+      "tacicul d",
+      "temisartan diur",
+      "vasexten d"
+    ],
+    "memantine+donepecilo": [
+      "alzeti",
+      "endoclar plus",
+      "lirpan plus",
+      "lucidex",
+      "merital xr plus",
+      "neuroplus dual",
+      "oldinot duo"
+    ],
+    "metilfenidato": [
+      "concerta",
+      "meticil",
+      "mfd",
+      "ritalina",
+      "ritalina la",
+      "rubifen",
+      "rubifen sr"
+    ],
+    "metoclopramida+pancreatina+asoc.": [
+      "bil",
+      "digesplen grag",
+      "praxis nf"
+    ],
+    "montelukast": [
+      "aireal",
+      "amisped",
+      "amisped pediatrico",
+      "asmavitan",
+      "denverkast",
+      "inspirol",
+      "lukasma",
+      "lukast",
+      "montelukast richet",
+      "montrate",
+      "montrate sob",
+      "plenair",
+      "rolast",
+      "rolast niños",
+      "singulair",
+      "singulair niños"
+    ],
+    "montelukast+levocetirizina": [
+      "aireal plus",
+      "alervitan",
+      "lukast"
+    ],
+    "nebivolol": [
+      "corpres",
+      "gadocor",
+      "moban",
+      "nabila",
+      "nebi",
+      "nebicor",
+      "nebilet",
+      "nebivolol denver farma",
+      "neoblock",
+      "nidib",
+      "nirpol",
+      "syncrocor"
+    ],
+    "nitrofurantoina": [
+      "furadantina mc",
+      "furadantina susp",
+      "urofuran"
+    ],
+    "nomegestrol,acetato+estradiol": [
+      "amapoli",
+      "suanel",
+      "zoely"
+    ],
+    "norfloxacina": [
+      "actobian",
+      "floxatral",
+      "memento nf",
+      "nefronet",
+      "norfloxacina craveri",
+      "norfloxacina fabra",
+      "norfloxacina klonal",
+      "norfloxacina richet",
+      "uro-linfol",
+      "uroseptal",
+      "urotem",
+      "uroxacin"
+    ],
+    "omeprazol": [
+      "omeprazol richet",
+      "ulcozol"
+    ],
+    "omeprazol+sodio,bicarbonato": [
+      "gastec rapido",
+      "ulcozol rapid",
+      "ulcozol susp polv.p/susp.oral"
+    ],
+    "orlistat": [
+      "crisplus",
+      "frugal",
+      "liposol",
+      "oleofin",
+      "orlist",
+      "xenical"
+    ],
+    "penicilina g benzatinica": [
+      "pen di ben",
+      "penicilina g benzatinica",
+      "penicilina g benzatinica richet"
+    ],
+    "prasterona+procaina+asoc.": [
+      "longevital"
+    ],
+    "pridinol,mesilato": [
+      "prinil",
+      "relaxedan",
+      "rodi rela"
+    ],
+    "pseudoefedrina+asoc.": [
+      "nastizol",
+      "nastizol jbe"
+    ],
+    "rivaroxaban": [
+      "rivaroxa",
+      "abaxon",
+      "antitrom",
+      "drinax r",
+      "lixatrom",
+      "quarxom",
+      "remexal",
+      "remivo",
+      "ribe",
+      "rivare",
+      "rixatyl",
+      "xarelto",
+      "xaroban"
+    ],
+    "serenoa repens": [
+      "permi",
+      "permixon",
+      "serecur"
+    ],
+    "sulfametoxazol+trimetoprima": [
+      "adrenol",
+      "adrenol jbe",
+      "bacticel",
+      "bacticel susp",
+      "bactrim",
+      "bactrim forte",
+      "bactrim iv a",
+      "bactrim jbe",
+      "dosulfin forte",
+      "netocur",
+      "netocur jbe",
+      "tritenk forte"
+    ],
+    "sulfametoxazol+trimetoprima+asoc": [
+      "enterobacticel",
+      "enterobacticel susp",
+      "netocur balsamico",
+      "netocur balsamico jbe",
+      "neumobacticel susp"
+    ],
+    "telmisartan": [
+      "bertel",
+      "gliosartan",
+      "micardis",
+      "misartal",
+      "mite",
+      "sactan",
+      "taroplen",
+      "telcardia",
+      "telpres"
+    ],
+    "telmisartan+hidroclorotiazida": [
+      "bertel d",
+      "gliosartan plus",
+      "micardis plus",
+      "sactan d",
+      "taroplen d"
+    ],
+    "teofilina anhidra": [
+      "drilyna",
+      "teodilat"
+    ],
+    "terazosina": [
+      "andrin",
+      "benaprost",
+      "blavin",
+      "fosfomik",
+      "geriprost",
+      "panaprost"
+    ],
+    "timomodulina": [
+      "leucotrofina a.beb"
+    ],
+    "vildagliptin": [
+      "carfla",
+      "galvus",
+      "glucemi",
+      "jovius",
+      "vilzer",
+      "zatium",
+      "zomarist"
+    ],
+    "vildagliptin+metformina": [
+      "carflax met",
+      "galvus met",
+      "glucemix met",
+      "jovius met",
+      "vi-baligluc",
+      "vilzermet",
+      "zatium met",
+      "zomarist met"
+    ],
+    "vit.a+triamcinolona": [
+      "bagovit a plus cr"
+    ],
+    "vit.b,complejo+asoc.": [
+      "anemidox a",
+      "bago b",
+      "memorex"
+    ],
+    "vit.b1 b6 b12+ac.tioctico": [
+      "bago b",
+      "nervomax tb"
+    ],
+    "calcio,carbonato+vit.d3": [
+      "calcio base dupomar d",
+      "simple vitacal caram. mast",
+      "taxus"
+    ],
+    "alprazolam+domperidona+asoc.": [
+      "alplax net",
+      "ansielix digest",
+      "sidomal",
+      "tensium gastric"
+    ],
+    "amlodipina+benazepril": [
+      "arteriosan plus",
+      "ilduc duo",
+      "pelmec duo",
+      "terloc duo"
+    ],
+    "atorvastatin+ezetimibe": [
+      "atorva/eze",
+      "atorva/ezetimibe",
+      "atorva 10/eze",
+      "ampliar duo",
+      "ampliar plus",
+      "ateroclar combi",
+      "ateroclar duo",
+      "colmibe",
+      "liparex plus",
+      "lipibec plus",
+      "lipocambi plus",
+      "lipokemia plus",
+      "liponorm plus",
+      "plan duo",
+      "torimibe",
+      "zarator plus"
+    ],
+    "betametasona": [
+      "betavalma",
+      "betnovate capilar loc",
+      "betnovate cr",
+      "blacor cr",
+      "butasona fabra",
+      "butasona fabra cr",
+      "celestone liq",
+      "corteroid",
+      "corteroid cr",
+      "corteroid gts",
+      "corteroid iny.f.a",
+      "corticas",
+      "corticas cr",
+      "corticas gts",
+      "corticas iny.f.a",
+      "denvercort",
+      "depocort",
+      "dicasone",
+      "diprosone cr",
+      "diprosone loc",
+      "lazar cort cr",
+      "metabulgin cr",
+      "metamar",
+      "metamar gts",
+      "transderma b cr",
+      "vitacortil b susp.oral"
+    ],
+    "betametasona (acet.y fosf.disod)": [
+      "betasone g retard a",
+      "butasona fabra rl a",
+      "celestone cronodose f.a",
+      "corteroid retard iny.f.a",
+      "corticas retard iny.f.a",
+      "cronodicasone f.a",
+      "deltisona retard fco.a",
+      "depocort retard f.a",
+      "metamar retard f.a"
+    ],
+    "betametasona (diprop.y f.disod.)": [
+      "crono corticas susp.iny.f.a",
+      "cronocorteroid iny.a",
+      "cronodicasone depot f.a",
+      "cronolevel f.a",
+      "depocort crono f.a"
+    ],
+    "betametasona (fosfato disodico)": [
+      "dicasone gts"
+    ],
+    "bisoprolol": [
+      "biso",
+      "bicardil",
+      "bisofec",
+      "bisopil",
+      "bisoprolol teva",
+      "corbis",
+      "lostaprolol",
+      "problock"
+    ],
+    "cilostazol": [
+      "aclusin",
+      "cibrogan",
+      "cilaal",
+      "cilospaw",
+      "cilostal",
+      "cilostazol richet",
+      "cilovas",
+      "dencilo",
+      "licuagen",
+      "novamas",
+      "pletaal",
+      "policor",
+      "trastocir",
+      "zolplat"
+    ],
+    "cinitaprida": [
+      "cinigest",
+      "rogastril"
+    ],
+    "citicolina": [
+      "reagin",
+      "reagin gotas gts"
+    ],
+    "clebopride+simeticona+asoc.": [
+      "eudon",
+      "somasedan"
+    ],
+    "clindamicina+ketoconazol": [
+      "fangan duo",
+      "front",
+      "ginclin ov",
+      "ovumix max",
+      "torgyn duo"
+    ],
+    "desloratadina+betametasona": [
+      "desaler cort",
+      "desloramar cort",
+      "desloramar cort susp.fco",
+      "frenaler cort",
+      "frenaler cort jbe",
+      "hexaler cort",
+      "hexaler cort jbe",
+      "histadicasone",
+      "histadicasone jbe"
+    ],
+    "dexketoprofeno": [
+      "algicur",
+      "enantyum",
+      "enantyum gel",
+      "idolgina",
+      "tacraf",
+      "tacraf gel gel"
+    ],
+    "donepecilo": [
+      "aurobral",
+      "cebrocal",
+      "cristaclar",
+      "donenova",
+      "donepecilo richet",
+      "donepes",
+      "endoclar",
+      "lirpan",
+      "lupracil",
+      "oldinot",
+      "onefin",
+      "valpe"
+    ],
+    "dutasteride+tamsulosina": [
+      "duodart",
+      "linus duo",
+      "prostoklar duo",
+      "reduprost duo",
+      "tansiloprost duo",
+      "urocont duo",
+      "urodif duo"
+    ],
+    "ergotamina+asoc.": [
+      "mikesan"
+    ],
+    "espironolactona": [
+      "espiro",
+      "espirono",
+      "aldactone a",
+      "drimux a",
+      "espima",
+      "espironolactona denver farma",
+      "lan",
+      "modulactone",
+      "rediun-e"
+    ],
+    "folico,ac.": [
+      "acifol",
+      "acifol gotas fco",
+      "anfolic",
+      "bernafolic",
+      "coflic",
+      "egestan folico",
+      "folinemic",
+      "nexovital folico",
+      "tanvimil folico",
+      "tanvimil folico gts"
+    ],
+    "gentamicina+clotrimazol+betamet.": [
+      "dicasone",
+      "metamar plus crema"
+    ],
+    "glimepiride": [
+      "adiuvan",
+      "amaryl",
+      "diabutil",
+      "endial",
+      "glemaz",
+      "glimeplic",
+      "glucopirida",
+      "hipoglut",
+      "islopir",
+      "lomet",
+      "next step"
+    ],
+    "glucosamina,potasica": [
+      "baliartrin potasico gran.sobres",
+      "gluco arrumalon",
+      "mecanyl k"
+    ],
+    "ibandronico,ac.+asoc.": [
+      "bantuc ma",
+      "elasterin max",
+      "femorel max",
+      "modifical duo"
+    ],
+    "lamotrigina": [
+      "epilepa",
+      "lagotran",
+      "lamictal dispersable",
+      "lamira",
+      "lamocas",
+      "lamocas xr",
+      "latrigin"
+    ],
+    "levofloxacina": [
+      "anuar",
+      "bacfuron",
+      "bactifren",
+      "bactocilina",
+      "benur",
+      "ely diar",
+      "fentaxina",
+      "floxlevo",
+      "lefluma",
+      "levaquin",
+      "levofloxacina richet",
+      "lexobron",
+      "septibiotic",
+      "ultraquin",
+      "uniflo",
+      "unilevo",
+      "valiflo",
+      "zenic"
+    ],
+    "lidocaina+hidrocortisona+asoc.": [
+      "procto-ikatral pda"
+    ],
+    "meloxicam": [
+      "brona",
+      "bronax cb",
+      "dominadol",
+      "flexidol",
+      "flexidol cb",
+      "loxitenk",
+      "mell",
+      "meloxicam denver farma",
+      "meloxicam teva",
+      "miolo",
+      "mobic",
+      "tenaron",
+      "virobron"
+    ],
+    "metformina": [
+      "baligluc",
+      "baligluc ap",
+      "dazomet ap",
+      "meftmina",
+      "dbi ap",
+      "dbi ap forte",
+      "dbi ap metformina",
+      "dbi metformina",
+      "dbi metformina sol",
+      "diab dos",
+      "diabesil",
+      "diabesil ap",
+      "glucaminol forte",
+      "glucogood",
+      "glucophage",
+      "glucophage xr",
+      "imecot",
+      "imecot ap",
+      "imecot ap forte",
+      "islotin",
+      "islotin retard",
+      "islotin xr",
+      "mectin xr",
+      "medobis",
+      "medobis ap",
+      "metformin temis",
+      "metformina rospaw",
+      "metglucon",
+      "quexel sr",
+      "redugluc",
+      "redugluc a.p",
+      "redugluc a.p. forte"
+    ],
+    "metronidazol": [
+      "colpofilin",
+      "etronil",
+      "flagyl",
+      "ginkan",
+      "metral",
+      "metrolocal",
+      "metronidazol biol",
+      "metronidazol denver farma",
+      "metronidazol fabra",
+      "metronidazol richet",
+      "metronidazol vannier",
+      "metronidazol vannier susp",
+      "nalox",
+      "nalox ov",
+      "ovufem",
+      "padet",
+      "repligen",
+      "roxederm",
+      "roze",
+      "rozex cr",
+      "tricofin"
+    ],
+    "miconazol+metronidazol+asoc.": [
+      "fangan plus ov",
+      "fenogynol ov",
+      "ginkan ov",
+      "linfol cicatrizante ov",
+      "micoclin ov",
+      "neo pelvicillin ov",
+      "ovufem ov",
+      "ovumix ov",
+      "pentol ov",
+      "septigyn ov",
+      "vagicural plus ov"
+    ],
+    "neomicina+asoc.": [
+      "adermicina cr",
+      "clevosan pda",
+      "neobitiol pie env",
+      "neobitiol spray sol"
+    ],
+    "nimodipina+citicolina": [
+      "nimodilat plus",
+      "nimoreagin",
+      "nivas plus"
+    ],
+    "pantoprazol": [
+      "pantop iv iny",
+      "pantus iv"
+    ],
+    "pramipexol": [
+      "neurosomat",
+      "noxopran",
+      "nulipar",
+      "nulipar lp",
+      "sifrol",
+      "sifrol er"
+    ],
+    "rasagilina": [
+      "agiline",
+      "azilect",
+      "elbrus",
+      "ragipar",
+      "rasa"
+    ],
+    "risedronato": [
+      "bonecur",
+      "rentop",
+      "ribastamin",
+      "ridron"
+    ],
+    "risperidona": [
+      "dozic",
+      "dropicine",
+      "restelea",
+      "riatul",
+      "rispe",
+      "risperdal",
+      "risperdal consta",
+      "risperdal sol.oral",
+      "risperidona dosa",
+      "risperidona fabra",
+      "risperin"
+    ],
+    "rosuvastatina+ezetimibe": [
+      "artomey duo",
+      "rosu/eze", "rosu/ezetimibe", "rosu 20/eze 10", "rosu+eze", "rosuvastatina + ezetimibe",
+      "artomey plus",
+      "combicol",
+      "hipolipol ez",
+      "lipex plus",
+      "lipoglutaren duo",
+      "reovex ez",
+      "rosuber plus",
+      "rosufen duo",
+      "rovartal ez",
+      "roxolan plus",
+      "sinlip ez"
+    ],
+    "sitagliptina": [
+      "eslipel",
+      "jalzer",
+      "januvia",
+      "siagli",
+      "sigliber",
+      "siltran",
+      "sotil",
+      "xelevia"
+    ],
+    "sitagliptina+metformina,clorh.": [
+      "jalzermet",
+      "janumet",
+      "janumet xr",
+      "siaglix met",
+      "siltran met",
+      "sotil met",
+      "sotil met xr",
+      "xelevia met",
+      "xelevia met xr"
+    ],
+    "solifenacina+tamsulosina": [
+      "tansiloprost sec",
+      "uralos ma",
+      "urife"
+    ],
+    "tadalafilo": [
+      "drotaq",
+      "drotaq hp",
+      "equitone",
+      "falic",
+      "h",
+      "invictus",
+      "leval",
+      "magnus",
+      "momentum",
+      "perdural",
+      "tadal",
+      "tadalafilo richet",
+      "tadalafilo teva",
+      "virilon ma",
+      "viripotens ma",
+      "vorst"
+    ],
+    "trimebutina": [
+      "altrip",
+      "biorgan",
+      "biorgan ap",
+      "colixane",
+      "debridat",
+      "debridat ap",
+      "eumotil",
+      "miopropan",
+      "miopropan lp",
+      "neotina",
+      "normopa",
+      "plide",
+      "plidex ap",
+      "procinet nf",
+      "relopat"
+    ],
+    "trimebutina+bromazepam": [
+      "biorgan b",
+      "colixane b",
+      "debridat b",
+      "eumotil-t",
+      "miopropan t"
+    ],
+    "trimebutina+simeticona": [
+      "biorgan s",
+      "eumotil s",
+      "factorex",
+      "miopropan s",
+      "plidex s"
+    ],
+    "valsartan": [
+      "vst",
+      "alpertan",
+      "valsratan",
+      "corosan",
+      "diapresan",
+      "dilcoran",
+      "diovan",
+      "diovan ic",
+      "hiperval",
+      "hipre",
+      "nicorvas",
+      "palia",
+      "racorval",
+      "sarval",
+      "semanar",
+      "simultan",
+      "valsarfec"
+    ],
+    "valsartan+amlodipina": [
+      "valsartan/amlo",
+      "valsartan/amlodipina",
+      "valsartan 160/5",
+      "valsartan 320/5",
+      "valsartan 80/5",
+      "valsartan 160/amlo 5",
+      "valsartan 160/amlo 10",
+      "valsratan 320/amlo 5",
+      "valsartan 320/amlod 5",
+      "diapresan a",
+      "dilcoran plus",
+      "disarval",
+      "exforge",
+      "hiprex ma",
+      "nicorvas a",
+      "noster",
+      "racorval a",
+      "simultan a"
+    ],
+    "valsartan+hctz+amlodipina": [
+      "valsartan/hctz/amlo",
+      "valsartan/hctz/amlodipina",
+      "valsartan 160/10/12.5",
+      "valsartan 160/5/12.5",
+      "valsartan 320/25/10",
+      "diapresan triple",
+      "dilcoran plus d",
+      "disarval d",
+      "exforge d",
+      "noster d",
+      "racorval",
+      "simultan triple"
+    ],
+    "valsartan+hidroclorotiazida": [
+      "valsratan/hidro",
+      "valsartan/hidroclorotiazida",
+      "valsartan/hidro",
+      "valsartan/hidrocloro",
+      "valsartan/hctz",
+   "valsartan 80/12.5",
+   "valsartan 160/12.5",
+   "valsartan 320/12.5",
+   "valsartan 320/25",
+      "alpertan d",
+      "corosan d",
+      "diapresan d",
+      "dilcoran d",
+      "diovan d",
+      "nicorvas diur",
+      "paliax d",
+      "racorval d",
+      "sarval d",
+      "simultan d",
+      "valsarfec d"
+    ],
+    "ac acetilsalicilico.": [
+      "aspirina",
+      "aas",
+      "asa",
+      "aspirina prevent",
+      "nuevapina cardio"
+    ],
+    "estradiol": [
+      "progynova",
+      "ronfase",
+      "rontagel env",
+      "trial gel gel"
+    ],
+    "estradiol+ciproterona": [
+      "climene grag"
+    ],
+    "estradiol+hidroxiprogesterona": [
+      "primosiston im iny.a"
+    ],
+    "estradiol+noretisterona": [
+      "mesigyna iny.im a"
+    ],
+    "hidroxiprogesterona": [
+      "proluton depot"
+    ],
+    "isoconazol": [
+      "mupaten cr",
+      "mupaten vaginal",
+      "mupaten vaginal cr"
+    ],
+    "levonorgestrel+estradiol": [
+      "ciclocur blist.grag"
+    ],
+    "levonorgestrel+etinilestradiol": [
+      "april",
+      "dos dias n",
+      "femexin",
+      "microgynon blist.grag",
+      "microvlar grag",
+      "miranova grag",
+      "nordette grag",
+      "norfen",
+      "tridestan n grag",
+      "triquilar blist.grag"
+    ],
+    "moxifloxacina": [
+      "avelo",
+      "avelox i.v",
+      "flomox sol.oft",
+      "moflag sol.oft",
+      "moxibase",
+      "moxidrop sol.oft",
+      "vigamo"
+    ],
+    "nifedipina": [
+      "adalat oros",
+      "nifed sol",
+      "nifedipina r"
+    ],
+    "nimodipina": [
+      "ac vascular",
+      "acival",
+      "explaner",
+      "explaner lp",
+      "macobal",
+      "nimodilat",
+      "nimodilat forte",
+      "nimotop",
+      "nivas",
+      "nivas forte"
+    ],
+    "testosterona": [
+      "androlone gel sob",
+      "nebido",
+      "testoviron depot"
+    ],
+    "vardenafil": [
+      "levitra"
+    ],
+    "difluocortolona+asoc.": [
+      "scheriderm cr"
+    ],
+    "paracetamol+clorfeniramina+asoc.": [
+      "duflegrip",
+      "duflegrip jbe",
+      "febrigrip",
+      "tabcin"
+    ],
+    "tiras reactivas": [
+      "accu-chek active glucosa tiras reactivas",
+      "accu-chek guide tiras reactivas",
+      "accu-chek performa",
+      "ascensia entrust sensores",
+      "on call plus tiras reac",
+      "one touch select plus tiras reactivas",
+      "one touch ultra tiras reactivas",
+      "sure step plus tiras reactivas",
+      "vivachek ino tiras reactivas",
+      "yuwell tiras react.p/glucosa"
+    ],
+    "vit.+minerales": [
+      "berocca plus",
+      "cal c vita",
+      "cal c vita fluor",
+      "centrum forte",
+      "centrum prenatal",
+      "centrum silver forte",
+      "polper calcio-magnesio",
+      "supradyn forte eferv",
+      "supradyn forte grag",
+      "supradyn pronatal",
+      "tanvimil m"
+    ],
+    "vit.c": [
+      "redoxon eferv"
+    ],
+    "vit.c+vit.e+betacaroteno+asoc.": [
+      "esclerovitan antioxidante",
+      "larotabe"
+    ],
+    "acetilcisteina": [
+      "acc expectorante",
+      "acemuk",
+      "acemuk jarabe jbe",
+      "acetilcisteina teva",
+      "broncolium",
+      "denvermuc",
+      "dosomuk",
+      "qura muk",
+      "tempotane",
+      "tempotane jbe",
+      "toflu",
+      "toflux jarabe jbe"
+    ],
+    "ambroxol+butamirato+clorfeniram.": [
+      "aseptobron c plus jbe",
+      "muco dosodos jbe"
+    ],
+    "cabergolina": [
+      "cabaser",
+      "caberpar",
+      "dostine",
+      "lactama"
+    ],
+    "ciproheptadina+calcio+asoc.": [
+      "ciprovit calcico",
+      "ciprovit calcico jbe"
+    ],
+    "ciproheptadina+vit.+asoc.": [
+      "ciprovit magnesico gran.sob"
+    ],
+    "diacereina+sulf.glucosamina pot.": [
+      "artrodar gluco",
+      "mecanyl",
+      "nulartrin gluco"
+    ],
+    "diclofenac sodico+misoprostol": [
+      "oxaprost"
+    ],
+    "difenilhidantoinato ca+fenobarb.": [
+      "lotoquis"
+    ],
+    "difenilhidantoinato de calcio": [
+      "lotoquis simple"
+    ],
+    "dutasteride": [
+      "avodart",
+      "deciton",
+      "doxaten",
+      "linus",
+      "ludasterin",
+      "plenur",
+      "tumulan",
+      "urocont"
+    ],
+    "espiramicina+metronidazol": [
+      "estilomicin"
+    ],
+    "gliclazida": [
+      "aglucide mr",
+      "diamicron mr",
+      "tradon",
+      "tradon mr",
+      "unava"
+    ],
+    "llanten+senosidos a y b": [
+      "medilaxan gran.fco"
+    ],
+    "metformina+pioglitazona": [
+      "cereluc met",
+      "piotamax met"
+    ],
+    "mosapride": [
+      "gastrokin",
+      "intesul",
+      "levusid",
+      "mosar",
+      "vagantyl"
+    ],
+    "otilonio,bromuro+diazepam": [
+      "pasminox somatico",
+      "spasmoctyl somatico"
+    ],
+    "pilocarpina": [
+      "isopto carpina",
+      "wetol"
+    ],
+    "pioglitazona": [
+      "cereluc",
+      "higlucem",
+      "piotama"
+    ],
+    "promestriene": [
+      "colpotrophine",
+      "colpotrophine cr",
+      "menoclim pro cr",
+      "menoclim pro ov",
+      "promeclim"
+    ],
+    "psyllium+asoc.": [
+      "medilaxan"
+    ],
+    "repaglinida": [
+      "cravenorm",
+      "glukenil",
+      "sestrine"
+    ],
+    "rosiglitazona": [
+      "glimide"
+    ],
+    "selegilina": [
+      "brintenal",
+      "jumex"
+    ],
+    "tibolona": [
+      "climati",
+      "discretal",
+      "klimastress",
+      "paraclim",
+      "tiboclim",
+      "tibofem",
+      "tocline"
+    ],
+    "tolfenamico,ac.": [
+      "flocur",
+      "flocur rapid"
+    ],
+    "antigenos": [
+      "nilflux vac.oral grag"
+    ],
+    "antigenos+asoc.": [
+      "biol preo a"
+    ],
+    "ergonovina": [
+      "metrergina"
+    ],
+    "glucoprot.de enterobacterias": [
+      "inespecin"
+    ],
+    "hexoprenalina": [
+      "argocian"
+    ],
+    "hierro+folico,ac.": [
+      "ferretab",
+      "hemofer folic",
+      "hierroquick",
+      "rubiron",
+      "sulfato ferroso richet",
+      "yectafer tabs"
+    ],
+    "labetalol": [
+      "biascor",
+      "blocamine"
+    ],
+    "metronidazol+asoc.": [
+      "flagystatin ov",
+      "linfol",
+      "linfol ov",
+      "metanis ov",
+      "naxo tv ov",
+      "vagilen ov"
+    ],
+    "nistatina+neomicina+asoc.": [
+      "o biol ov"
+    ],
+    "siliconas": [
+      "aerogal aerosol",
+      "finescar spray",
+      "kurapel aer",
+      "silicol cr"
+    ],
+    "suero antiofidico": [
+      "suero antiofidico polivalente liof.biol f.a.+a.dil"
+    ],
+    "toxoide tetanico": [
+      "tetanol pur susp.iny",
+      "tetavax jga.prell",
+      "vacuna antitetanica biol a"
+    ],
+    "toxoide tetanico+difterico": [
+      "dite (ex vacuna doble adultos biol) a",
+      "imovax dt adultos jga.prell"
+    ],
+    "trospio,cloruro": [
+      "spasme"
+    ],
+    "vit.k1": [
+      "vitamina k"
+    ],
+    "flunitrazepam": [
+      "mirpaw",
+      "rohypnol"
+    ],
+    "rotigotina": [
+      "neupro"
+    ],
+    "lactobacilos+asoc.": [
+      "bioflora pvo"
+    ],
+    "levodopa+carbidopa+entacapone": [
+      "stalevo"
+    ],
+    "ciprofloxacina+dexametasona": [
+      "ciprocler colirio susp.oft",
+      "ciprofloxacina d dorf sol.oft",
+      "cirflox oftal susp.oft",
+      "decadron con ciprofloxacina susp.oft",
+      "dexacort c gts.oft",
+      "fotamicin susp.oft",
+      "fotamicin ung.oft",
+      "omaflaxina d susp.oft.esteril",
+      "polex susp.oft.esteril",
+      "polex ung.oft.esteril",
+      "procalm sol.oft",
+      "quidex gts.oft",
+      "quidex ung.oft",
+      "tacines susp.oft"
+    ],
+    "ciprofloxacina+hidrocortisona": [
+      "otolef susp.otica"
+    ],
+    "timolol,maleato": [
+      "atiglauc",
+      "klonalol",
+      "plostim",
+      "poentimol",
+      "profla",
+      "timolol denver farma sol.oft",
+      "timolol dorf",
+      "timoplos lc sol.oft.ester",
+      "zopirol"
+    ],
+    "ambroxol+butetamato": [
+      "bronquisedan ad.jbe",
+      "piritos forte jbe",
+      "tostop"
+    ],
+    "amoxicilina+clavulanico,ac.": [
+      "amixen clavulanico",
+      "amoclav duo",
+      "amoxi plus mar",
+      "amoxi plus mar susp",
+      "amoxicilina clavulanico",
+      "amoxicilina clavulanico richet",
+      "amoxitenk plus",
+      "bioxilina plus duo",
+      "clamoxol duo",
+      "clavulo",
+      "clavulox duo",
+      "clavulox es susp",
+      "clavulox xr",
+      "darzitil plus",
+      "darzitil plus duo jbe",
+      "darzitil plus susp",
+      "elgymox clav",
+      "fabamox duo",
+      "fabamox duo suspension",
+      "grinsil clav duo",
+      "klonalmox ped",
+      "nobactam clavulanico",
+      "optamo",
+      "optamox duo",
+      "optamox duo susp",
+      "optamox ped",
+      "plenobiotic duo",
+      "plenobiotic duo susp",
+      "ultrabiotic duo"
+    ],
+    "betametasona+gentamicina+asoc.": [
+      "bacticort",
+      "quadriderm cr",
+      "vitacortil cr"
+    ],
+    "difenhidramina": [
+      "benadryl",
+      "benadryl iny.a",
+      "benadryl jbe",
+      "difenhidramina denver farma",
+      "difenhidramina denver farma jbe",
+      "fadale",
+      "histaler jbe"
+    ],
+    "lidocaina+hidrocortisona": [
+      "magnal pda",
+      "pomada hadensa plus cr",
+      "proctocrem pda",
+      "proctyl hc pda",
+      "xilocler pda.rectal"
+    ],
+    "loperamida": [
+      "colifilm",
+      "custey",
+      "dotalsec",
+      "ionet",
+      "lanseka",
+      "loperamida fabra",
+      "loperamida richet",
+      "loperi",
+      "lovopren",
+      "normasec",
+      "regulane",
+      "regulane cb",
+      "regulane solucion sol",
+      "suprasec",
+      "viltar"
+    ],
+    "nafazolina": [
+      "nafazolex env.gotero",
+      "rhinal gts"
+    ],
+    "calcio": [
+      "calcio acido",
+      "calcio base dupomar forte"
+    ],
+    "fenitoina": [
+      "epamin",
+      "epamin liq",
+      "fenitenk",
+      "fenitoina denver farma"
+    ],
+    "furosemida": [
+      "errolon",
+      "furo",
+      "furosemida denver farma",
+      "furosemida fecofar",
+      "furosemida klonal",
+      "furotral",
+      "furtenk",
+      "lasix"
+    ],
+    "itraconazol": [
+      "itrac",
+      "micotenk",
+      "nitridazol",
+      "panastat",
+      "salimidin",
+      "sporanox",
+      "sporanox pulso",
+      "sporanox sol.oral"
+    ],
+    "loratadina": [
+      "alerpriv",
+      "alerpriv jbe",
+      "biloina",
+      "biloina jbe",
+      "hisple",
+      "lisaler",
+      "loratadina vannier",
+      "loratadina vannier jbe",
+      "nularef",
+      "nularef jbe"
+    ],
+    "meprednisona": [
+      "cortipyren b",
+      "deltisona b",
+      "deltisona b gts",
+      "la meprednisona",
+      "meprednisona richet",
+      "prednisonal"
+    ],
+    "metoclopramida": [
+      "midatenk",
+      "primavera-n ad.gts",
+      "reliveran",
+      "reliveran ad.gts",
+      "reliveran inyectable",
+      "reliveran nñ.gts",
+      "reliveran sublingual",
+      "rilaquin",
+      "rilaquin ad.gts",
+      "rilaquin sl"
+    ],
+    "dabigatran": [
+      "dabidane",
+      "pradaxa"
+    ],
+    "empaglifozina": [
+      "empa",
+      "enclyna",
+      "jardiance"
+    ],
+    "fenoterol": [
+      "berotec",
+      "berotec hfa aerosol hfa"
+    ],
+    "ipratropio,bromuro": [
+      "aerotrop aer.hfa",
+      "aerotrop sol.neb",
+      "aerotrop spray nasal",
+      "atrovent hfa aerosol hfa",
+      "atrovent sol",
+      "ipatrop sol.p/nebulizar"
+    ],
+    "ipratropio,bromuro+fenoterol": [
+      "berodual hfa aerosol hfa",
+      "berodual sol"
+    ],
+    "linagliptina": [
+      "trayenta"
+    ],
+    "salbutamol+ipratropio,br.": [
+      "combivent sm sol.monodosis",
+      "iprasalb sol.monods",
+      "maxair aer",
+      "salbutral ac hfa aer",
+      "salbutral ac sol.p/neb.unid",
+      "salbutrop sol.unidosis"
+    ],
+    "telmisartan+amlodipina": [
+      "micardis a",
+      "sactan a"
+    ],
+    "tiotropio": [
+      "spiriva respimat sol.p/inh"
+    ],
+    "tiotropio,bromuro": [
+      "aspire",
+      "neumotropio",
+      "nubibron",
+      "spiriva"
+    ],
+    "aluminio,hidr.+magn.hidr.+simet.": [
+      "aci-tip",
+      "factor ag antiacido",
+      "mylanta ii",
+      "mylanta ii liq",
+      "mylanta plus liq"
+    ],
+    "aminoacidos+vit.b12": [
+      "polper b",
+      "tanvimil aminoacidos"
+    ],
+    "amlodipina+atorvastatin": [
+      "pelmec plus",
+      "tema"
+    ],
+    "amlodipina+losartan+hidroclorot.": [
+      "pelmec max d"
+    ],
+    "bencidamina,clorhidrato": [
+      "ernex",
+      "ernex liq",
+      "ernex sol.spray"
+    ],
+    "calcipotriol+betametasona,diprop": [
+      "calci corticas ung",
+      "cutanit b ung"
+    ],
+    "carbocisteina+dextrometorfano br": [
+      "supritos jbe"
+    ],
+    "claritromicina+ambroxol": [
+      "iset respiratorio",
+      "quotal muc"
+    ],
+    "clindamicina": [
+      "clidan gel derm",
+      "clindacin gel",
+      "clindacin sol",
+      "clindalaf",
+      "clindamicina fabra",
+      "clindamicina richet",
+      "clintopic loc",
+      "dalacin c",
+      "microbion",
+      "resbiotic",
+      "torgyn"
+    ],
+    "clonidina+clortalidona": [
+      "bemplas"
+    ],
+    "clortalidona": [
+      "euretico"
+    ],
+    "colina,salicilato+asoc.": [
+      "dercolina a jalea",
+      "dercolina jalea"
+    ],
+    "diacereina": [
+      "artricare",
+      "artrodar",
+      "cominar",
+      "nulartrin"
+    ],
+    "diclofenac potasico+betametasona": [
+      "blokium cort",
+      "blokium cort iny.a",
+      "rodinac cort"
+    ],
+    "domperidona+simeticona": [
+      "bigetric",
+      "dom simecon",
+      "moperidona af",
+      "moperidona af gts"
+    ],
+    "doxilamina+piridoxina": [
+      "detixol",
+      "epidac",
+      "tonval",
+      "tueris"
+    ],
+    "eszopiclona": [
+      "dorcan",
+      "dorplen",
+      "inductal",
+      "miapa",
+      "novo insomnium"
+    ],
+    "ezetimibe": [
+      "alin",
+      "alipas",
+      "coracil",
+      "ezetrol",
+      "ixacor",
+      "nalecol",
+      "trilip",
+      "vadel",
+      "zetia"
+    ],
+    "fenofibrato micronizado": [
+      "craveril",
+      "daunlip",
+      "fenofibrato micronizado richet",
+      "fenosane",
+      "liptuin",
+      "minuslip",
+      "procetoken",
+      "segren",
+      "templaris"
+    ],
+    "fexofenadina": [
+      "alercas",
+      "alercas susp",
+      "alerfedine",
+      "alerfedine susp.oral",
+      "mudantil f",
+      "vagran"
+    ],
+    "fexofenadina+betametasona": [
+      "alercas cort"
+    ],
+    "fexofenadina+pseudoefedrina": [
+      "alercas d",
+      "alerfedine d"
+    ],
+    "fluticasona": [
+      "alernix cort spray nasal",
+      "bronquilair nasal spray nasal",
+      "dexalergin cort",
+      "flixonase acuoso nasal inh.dosis",
+      "flixotide",
+      "fluticasona teva",
+      "fluticort",
+      "inhalan spray nasal",
+      "lidil cort spray nasal",
+      "lirtodac",
+      "proair nasal susp.ac.nasal",
+      "rinisona"
+    ],
+    "fluticasona+azelastina": [
+      "inhalan az spray nasal"
+    ],
+    "fluticasona+oximetazolina clorh.": [
+      "inhalan plus spray nasal"
+    ],
+    "fluticasona+salmeterol": [
+      "asmabron",
+      "flutivent hfa",
+      "flutivent+aeromed hfa",
+      "inhalan bronquial",
+      "lirtodac plus",
+      "neumotide aerosol",
+      "neumotide polvo",
+      "proair bronquial",
+      "seretide aerosol hfa",
+      "seretide diskus",
+      "vetalone"
+    ],
+    "flúor+calcio": [
+      "adolcas"
+    ],
+    "haloperidol": [
+      "enabran",
+      "haloperidol denver farma decanoato",
+      "haloperidol medipharma",
+      "halopidol",
+      "halopidol decanoato iny.a",
+      "halopidol forte",
+      "neupram"
+    ],
+    "homatropina,metilbr.+simeticona": [
+      "factor ag antiespasmodico gts"
+    ],
+    "itopride": [
+      "aflusan",
+      "domeka",
+      "idelis",
+      "itoplus",
+      "itoprid"
+    ],
+    "lisado bacteriano+vit.a": [
+      "vacuna oral casasco",
+      "vacuna oral casasco fco.gotero"
+    ],
+    "memantine clorh.+donepecilo clor": [
+      "carrier plus",
+      "valpex duo"
+    ],
+    "minociclina": [
+      "limafil",
+      "meibi",
+      "minociclina richet",
+      "seboclear"
+    ],
+    "nebivolol+hidroclorotiazida": [
+      "corpres d",
+      "nabila d",
+      "nebicor d",
+      "nebilet d",
+      "nirpol d",
+      "syncrocor d"
+    ],
+    "olanzapina": [
+      "apsico",
+      "enole",
+      "mida",
+      "olanzanova",
+      "olanzapina  rospaw",
+      "onotran",
+      "revertri",
+      "rolanza",
+      "sartina",
+      "simina"
+    ],
+    "pool bacteriano": [
+      "vacunace sob"
+    ],
+    "potasio,citrato": [
+      "finalit",
+      "finalit sob",
+      "urokit",
+      "urokit sob"
+    ],
+    "prasugrel": [
+      "corilum",
+      "enipra",
+      "fluidin",
+      "procardia",
+      "trocal",
+      "prasu"
+    ],
+    "prednisolona+asoc.": [
+      "procto venart pda"
+    ],
+    "ruscogenina+hesperidina+asoc.": [
+      "cyclo",
+      "nolen",
+      "venart"
+    ],
+    "ruscogenina+meliloto,ext.fluido": [
+      "cyclo",
+      "venart cr"
+    ],
+    "solifenacina": [
+      "cistil",
+      "novurit",
+      "pisono",
+      "solifen",
+      "solifenacina teva",
+      "vesicare"
+    ],
+    "topiramato": [
+      "epistal",
+      "neutop",
+      "topamac",
+      "topamac sprinkle",
+      "topictal"
+    ],
+    "tramadol+paracetamol": [
+      "calmador plus",
+      "cloq plus",
+      "lixidol gesic",
+      "nervidol",
+      "taxat",
+      "tramacet",
+      "tramadolten plus",
+      "tramal plus",
+      "ultragesic plus"
+    ],
+    "aciclovir": [
+      "acerpes",
+      "aciclovir filaxis",
+      "lafevir",
+      "lisovyr",
+      "lisovyr suspension",
+      "poviral",
+      "virostatic",
+      "xiclovir"
+    ],
+    "cetirizina": [
+      "alidial",
+      "atopix",
+      "atopix gts",
+      "cabal",
+      "cabal gts",
+      "cetirizina cetus",
+      "cetizine",
+      "cetizine gts",
+      "dexalergin novo cb",
+      "salvalerg",
+      "stopaler",
+      "zyrtec"
+    ],
+    "cistina+asoc.": [
+      "aminoterapia",
+      "aminoterapia sob",
+      "cistina b",
+      "cistina-b",
+      "lohp",
+      "megaplus sob.monodosis",
+      "recupel"
+    ],
+    "clindamicina+benzoilo,peroxido": [
+      "clidan b gel",
+      "clindoxyl gel",
+      "cp acne duo multidosis gel dosif. simult",
+      "cp acne duo pak sob",
+      "cp acne duo pomo",
+      "duo clindacin gel",
+      "perclin cr",
+      "peroxiclin duo gel"
+    ],
+    "clotrimazol": [
+      "ikolan",
+      "micomazol cr.derm",
+      "micosep pasta derm",
+      "mycanden cr",
+      "mycanden pvo.dermico",
+      "mycanden spray"
+    ],
+    "imiquimod": [
+      "imimore",
+      "miquimod",
+      "modulcass",
+      "virosupril"
+    ],
+    "ivermectina": [
+      "iver p",
+      "ivercass",
+      "ivercass sol.oral gtas",
+      "licend",
+      "securo"
+    ],
+    "loratadina+pseudoefedrina": [
+      "alerpriv d",
+      "alerpriv d jbe",
+      "decidex plus",
+      "nularef-d",
+      "sinaler d"
+    ],
+    "mometasona furoato": [
+      "elocon crema pomo",
+      "elocon loc",
+      "fenisona",
+      "hexaler bronquial",
+      "hexaler nasal spray nasal",
+      "lisiker susp.acuosa nasal",
+      "metason cr",
+      "metason loc",
+      "metason nasal mini spray nasal",
+      "metason nasal spray nasal",
+      "mometax cr",
+      "mometax loc",
+      "nasonex mini nasal spray acuoso",
+      "nasonex nas.spray acuoso",
+      "novasone cr",
+      "suavicort cr",
+      "suavicort spray nasal"
+    ],
+    "nafazolina+cromoglicato disodico": [
+      "rinogel gel nasal"
+    ],
+    "nicotina": [
+      "niux spray nasal"
+    ],
+    "oximetazolina": [
+      "oxiler d spray"
+    ],
+    "podofilox": [
+      "podoxin sol.topica"
+    ],
+    "prednisolona+cloramfenicol": [
+      "esodar susp.est"
+    ],
+    "ribosomas+proteoglicanos": [
+      "summavac r"
+    ],
+    "salbutamol+beclometasona": [
+      "butocort hfa aer",
+      "ventide aer"
+    ],
+    "salicilico,ac.": [
+      "salpad",
+      "verrukid pediatrico gel liq",
+      "verrutrix sob"
+    ],
+    "sodio,carbonato": [
+      "otoclean gotas oticas gts.oticas"
+    ],
+    "sodio,cloruro": [
+      "clorhyp monods",
+      "hypersol",
+      "hypersol nebu sol.neb.unids.ester",
+      "hypersol unidosis unidosis esteriles",
+      "naclin a",
+      "naclor",
+      "nadrion",
+      "relente sol.oft"
+    ],
+    "sodio,cloruro+carragenina": [
+      "nasitral spray nasal est"
+    ],
+    "sodio,cloruro+xilitol": [
+      "xylisol spray nasal"
+    ],
+    "tretinoina": [
+      "neotretin d",
+      "neotretin f",
+      "neotretin m",
+      "niterey"
+    ],
+    "vacuna polimicrob.polimicot.": [
+      "summavac m iny.a",
+      "summavac p iny.a"
+    ],
+    "dispositivo para aplic.insulina": [
+      "agujas accu-fine",
+      "agujas bd ultrafine",
+      "agujas novofine",
+      "jeringas bd ultrafine"
+    ],
+    "levomepromazina": [
+      "levomepromazina vannier",
+      "meprozin",
+      "nozinan",
+      "togrel"
+    ],
+    "bametano+asoc.": [
+      "flaval"
+    ],
+    "dexclorfeniramina": [
+      "afeme"
+    ],
+    "diazepam": [
+      "cuadel",
+      "diactal enema pomo aplic",
+      "diazepam fabra",
+      "plidan",
+      "saromet",
+      "saromet fulltime",
+      "valium"
+    ],
+    "diclofenac sodico+orfenadrina": [
+      "belmalen"
+    ],
+    "domperidona": [
+      "domperi",
+      "ecuamon",
+      "ecuamon gts",
+      "estocalm",
+      "kinetidom",
+      "moperidona",
+      "moperidona gts"
+    ],
+    "levoglutamina+vit.b6+asoc.": [
+      "tuaplex"
+    ],
+    "mazindol": [
+      "dimagrir",
+      "fagolip plus",
+      "mz"
+    ],
+    "metoclopramida+asoc.": [
+      "bitecain a.a"
+    ],
+    "pancreatina+asoc.": [
+      "arnol"
+    ],
+    "paracetamol+difenhidramina+asoc.": [
+      "corizina cetus grag"
+    ],
+    "sodio,picosulfato": [
+      "dagol cetus",
+      "dagol cetus gts",
+      "laxagar gts",
+      "laxanet sol.oral",
+      "modaton gts",
+      "rapilax gts",
+      "trali"
+    ],
+    "cumarina": [
+      "esberiven emulsion env"
+    ],
+    "cumarina+troxerrutina": [
+      "esberiven depot grag"
+    ],
+    "desogestrel": [
+      "camelia",
+      "carmin",
+      "cerazette",
+      "lumilac",
+      "pink"
+    ],
+    "fenolftaleina+asoc.": [
+      "genolaxante grag"
+    ],
+    "glibenclamida": [
+      "benclamid",
+      "daonil",
+      "diabe pass",
+      "diabemin",
+      "euglucon",
+      "gardoton",
+      "glidanil"
+    ],
+    "heparina sodica": [
+      "cycloparin gel topico",
+      "hepatriet gel topico"
+    ],
+    "lactulosa": [
+      "genocolan jbe",
+      "lactulon jbe",
+      "lafelax jbe",
+      "ronelax jbe"
+    ],
+    "oxibutinina": [
+      "delak",
+      "ditropan",
+      "ditropan jbe",
+      "ditropan ud",
+      "gelidina gel dermico sob",
+      "oxibutinina ferring",
+      "urequin"
+    ],
+    "pentoxifilina": [
+      "pentomiron",
+      "previscan rtd",
+      "trental"
+    ],
+    "sumatriptan": [
+      "imigran",
+      "micranil",
+      "micranil jga.prell",
+      "migraneitor",
+      "migratriptan"
+    ],
+    "trolamina": [
+      "biafine emuls"
+    ],
+    "antipirina+sodio,carbonato+asoc.": [
+      "cerosporin gts.oticas",
+      "sincerum gts"
+    ],
+    "natamicina": [
+      "natacyn fco"
+    ],
+    "bromfenac": [
+      "berlofen sol.oft",
+      "fenac sol.oft.esteril",
+      "natax fco.gotero",
+      "oftalfenac sol.oft"
+    ],
+    "carbomer 974 p": [
+      "alivialux gel oft",
+      "latlas gel oft",
+      "lubrol gel gel oft"
+    ],
+    "dorzolamida+timolol": [
+      "aliviapres sol.oft",
+      "dorlamida t sol.oft",
+      "dorzoflax gts.oft",
+      "dorzolamida t dorf sol.oft",
+      "glaucotensil td colirio",
+      "press out t sol.oft",
+      "zopirol dm sol.oft"
+    ],
+    "fenilefrina+tropicamida": [
+      "midriax-t gts.oft",
+      "tropioftal f sol.oft"
+    ],
+    "insulina humana": [
+      "insulina densulin n",
+      "insulina densulin r",
+      "insulina insulatard flexpen hm",
+      "insulina insulatard hm",
+      "insulina insulatard penfill hm",
+      "insulina insuman n",
+      "insulina insuman n solostar",
+      "insulina insuman r"
+    ],
+    "lidocaina": [
+      "indican gel",
+      "indican spray",
+      "lidocaina denver farma",
+      "solvente indoloro monserrat y eclair sol.f.a"
+    ],
+    "lidocaina+asoc.": [
+      "antihemorroidal denver farma cr.rectal",
+      "procto-metadyne cr.rectal"
+    ],
+    "loratadina+ambroxol": [
+      "aliviatos sol",
+      "lorabrox jbe"
+    ],
+    "loteprednol+tobramicina": [
+      "lopred biotic susp.oft",
+      "lotemicin susp.oft",
+      "lotevis t susp.oft",
+      "tobrabiotic soft susp.oft"
+    ],
+    "nistatina": [
+      "dipni",
+      "nistatina denver farma cr",
+      "nistatina denver farma susp.oral"
+    ],
+    "nitrofurazona": [
+      "nitrofurazona denver farma apos",
+      "nitrofurazona denver farma pda"
+    ],
+    "rifamicina": [
+      "rifamicina sv denver farma",
+      "rifamicina sv denver farma pda",
+      "rifamicina sv denver farma sol.uso local",
+      "rifamicina-g",
+      "rifocina pda.derm",
+      "rifocina spray"
+    ],
+    "sucralfato": [
+      "gastromed susp",
+      "netunal susp",
+      "sucralfato denver farma",
+      "sucralmax susp"
+    ],
+    "sulfadiazina de plata+asoc.": [
+      "calcusan sulfadiazina cr.pomo",
+      "platsul-a cr",
+      "platsul-a gasas apos",
+      "sulfadiazina de plata a richet",
+      "sulfadiazina de plata a richet cr.derm",
+      "sulfadiazina de plata denver farma cr.pomo",
+      "sulfadiazina de plata denver farma cr.pote",
+      "sulfaplat la cr"
+    ],
+    "tetrahidrozolina": [
+      "piam sol.oft"
+    ],
+    "fosfato disodico+fosfato monosod": [
+      "esien sol.oral",
+      "fosfalax enema env",
+      "fosfalax oral sol",
+      "fosfo-dom env",
+      "gadolax sol.oral"
+    ],
+    "folico,ac.+vit.b": [
+      "acifol b",
+      "blastop"
+    ],
+    "hidroquinona+asoc.": [
+      "melasmax cr"
+    ],
+    "hierro,sacarato": [
+      "ferive"
+    ],
+    "lactasa": [
+      "lactas",
+      "lactas gts"
+    ],
+    "magnesio": [
+      "holomagnesio",
+      "magnebe",
+      "total magnesiano",
+      "total magnesiano efervescente",
+      "total magnesiano efervescente pvo.sob",
+      "total magnesiano gran.fco",
+      "total magnesiano limon pvo.gran"
+    ],
+    "midodrine": [
+      "gutron"
+    ],
+    "nitroglicerina": [
+      "nitrodom pomo"
+    ],
+    "peg 3350": [
+      "barex unipeg sobres",
+      "lumencol",
+      "tractolax sobres"
+    ],
+    "peg 3350+asoc.": [
+      "bare",
+      "barex s pvo.hidrosol.sob",
+      "barex saborizado pvo.p/sol.oral",
+      "lumencol bidon",
+      "sinastal sobres"
+    ],
+    "peg 3350+bisacodilo": [
+      "barex kit bare"
+    ],
+    "poliestiren sulfonato calcico": [
+      "r.i.c.calcio pvo"
+    ],
+    "quinidina,sulfato": [
+      "quinidina grag"
+    ],
+    "sodio,fosfato+bisacodilo": [
+      "fosfo-dom kit fosfodom+bisacod"
+    ],
+    "vit.b12": [
+      "sl b"
+    ],
+    "vit.d": [
+      "denurix gts",
+      "raquiferol fco.gotero",
+      "tanvimil d gts"
+    ],
+    "aciclovir+hidrocortisona": [
+      "lisovyr cort pomo"
+    ],
+    "aluminio,hidr.+magnesio,hidr.": [
+      "mylanta simple liq"
+    ],
+    "amantadina": [
+      "ampakine",
+      "virosol"
+    ],
+    "ambroxol": [
+      "ambril jbe"
+    ],
+    "antigeno hepatitis b": [
+      "biovac hb",
+      "engerix-b jga.prell",
+      "engerix-b pediatrico jga.prell",
+      "hb vax pro",
+      "hepativax f.a",
+      "hepativax junior f.a"
+    ],
+    "benznidazol": [
+      "abara"
+    ],
+    "bezafibrato": [
+      "bezacur rtd",
+      "bezalip retard",
+      "elpi lip"
+    ],
+    "carbomer": [
+      "acrylarm plus gel oft",
+      "cool gel gel oft",
+      "ph lagrimas gel gel oft",
+      "xicrim fco. got"
+    ],
+    "ceftazidima": [
+      "ceftazidima richet",
+      "fortum"
+    ],
+    "cefuroxima": [
+      "cefuro",
+      "cefurox sabor mejorado",
+      "cefuroxima richet",
+      "cefuroxima richet suspension"
+    ],
+    "clobazam": [
+      "karidium"
+    ],
+    "difenhidramina+asoc.": [
+      "benadryl antitusivo jbe",
+      "benadryl dm"
+    ],
+    "enoxaparina sodica": [
+      "clexane",
+      "enoxa",
+      "omate"
+    ],
+    "etosuximida": [
+      "zarontin",
+      "zarontin liq"
+    ],
+    "fludrocortisona": [
+      "lonikan"
+    ],
+    "fluticasona,furoato+vilanterol": [
+      "alvetide",
+      "relvar ellipta"
+    ],
+    "gatifloxacina+dexametasona": [
+      "gatidex sol.oftalmica",
+      "gatiflax d susp.oftalmica",
+      "gatimicin d susp.oftalmica"
+    ],
+    "ginkgo biloba": [
+      "clarvix",
+      "tanakan forte",
+      "tanakan grag"
+    ],
+    "hedera helix": [
+      "cedric jarabe jbe",
+      "qura tos jbe"
+    ],
+    "hialuronato sodico": [
+      "artfle",
+      "biosol gel gel oft",
+      "cruzal",
+      "dropstar colirio",
+      "dropstar p colirio",
+      "hialudorf hd sol.oft",
+      "hialudorf sol.oft",
+      "osiris sol.oft"
+    ],
+    "hidroxipropilmetilcelulosa+asoc.": [
+      "ph lagrimas gtas"
+    ],
+    "hierro+vit.b12+folico,ac.+asoc.": [
+      "anemidox ferrum",
+      "anemidox ultra"
+    ],
+    "insaponificables": [
+      "audax",
+      "cledium",
+      "derrumal",
+      "prontal"
+    ],
+    "levotiroxina": [
+      "euthyro",
+      "levotiroxina fabra",
+      "levotiroxina gsk",
+      "t"
+    ],
+    "loteprednol,etabonato": [
+      "lopred susp.oft",
+      "lotesoft susp.oft",
+      "lotesoft ung.oft",
+      "lotevis susp.oft",
+      "talof susp.oft"
+    ],
+    "magnesio+asoc.": [
+      "holomagnesio b",
+      "total magnesiano antioxidante",
+      "total magnesiano b",
+      "total magnesiano energizante",
+      "total magnesiano sport",
+      "total magnesiano sport sob",
+      "total magnesiano stress pvo.eferv.sob",
+      "total magnesiano vitalizante plus"
+    ],
+    "mefenamico,ac.": [
+      "ponstil forte"
+    ],
+    "metformina+glibenclamida": [
+      "dbi duo",
+      "glucovance",
+      "metglucon duo"
+    ],
+    "olopatadine": [
+      "keim aler",
+      "olopat",
+      "olopat f",
+      "oloratan",
+      "patanol",
+      "patanol s",
+      "timalerg",
+      "zepiken",
+      "zoloatlas fco.gotero"
+    ],
+    "oseltamivir": [
+      "agucort",
+      "oseltamivir elea",
+      "oseltamivir elea pvo.p/susp.oral",
+      "tamiflu"
+    ],
+    "paracetamol": [
+      "geniol",
+      "paracetamol fecofar gts",
+      "paracetamol lazar",
+      "paracetamol monserrat y eclair gts",
+      "paracetamol raffo",
+      "paracetamol teva",
+      "tafirol",
+      "termofren gts",
+      "termofren sol"
+    ],
+    "plantago ovata+cassia angustif.": [
+      "agiolax env"
+    ],
+    "potasio,cloruro": [
+      "control k"
+    ],
+    "progesterona": [
+      "crinone",
+      "mafel",
+      "progest",
+      "utrogestan"
+    ],
+    "rabeprazol": [
+      "rabec"
+    ],
+    "sacubitrilo+valsartan": [
+      "arnis",
+      "sacu",
+      "sacubitrilo/valsartan",
+      "dupertan",
+      "entresto",
+      "hiperval plus",
+      "ristonel"
+    ],
+    "silodosina": [
+      "petrium"
+    ],
+    "travoprost": [
+      "arvo sol.oft",
+      "glaucoprost sol.oft",
+      "glaunot sc sol.oft",
+      "glaunot sol.oft",
+      "travatan sol.oft",
+      "travoplos sol.oft"
+    ],
+    "vit.c+citroflavonoide": [
+      "cvp duo"
+    ],
+    "vit.e+vit.a+asoc.": [
+      "esclerovitan e",
+      "tanvimil eba"
+    ],
+    "bupropion": [
+      "bup",
+      "odranal",
+      "wellbutrin xl"
+    ],
+    "hierro,succinato": [
+      "ferdromaco"
+    ],
+    "hierro,sulfato": [
+      "factofer gotas gts",
+      "fer in sol jbe",
+      "fer in sol sol",
+      "ferdromaco pediatrico gts",
+      "hemofer gts",
+      "hemofer jbe",
+      "hierro fabra",
+      "hierro fabra gts",
+      "iberol gts",
+      "siderblut",
+      "tardyferon"
+    ],
+    "paracetamol+pseudoefedrina+asoc.": [
+      "coris grip",
+      "gripaben solucion oral env",
+      "predual",
+      "predual jbe",
+      "qura",
+      "qura plus",
+      "qura plus jbe",
+      "refrianex",
+      "refrianex jbe",
+      "termogrip"
+    ],
+    "sodio,fosfato": [
+      "colonil sol.oral",
+      "enemol sol",
+      "kritel enema sol"
+    ],
+    "vincamina+cinarizina": [
+      "euroland"
+    ],
+    "dimenhidrinato": [
+      "agirax",
+      "dr. amin",
+      "dramamine",
+      "vertigmine",
+      "vertigmine sol"
+    ],
+    "retinoico,ac.+asoc.": [
+      "puraloe"
+    ],
+    "ampicilina+sulbactam": [
+      "ampigen sb",
+      "sultamicilina richet"
+    ],
+    "cefadroxilo": [
+      "cefacar",
+      "cefacilina",
+      "cefadroxilo fabra",
+      "cefamar",
+      "klondroxil"
+    ],
+    "ceftriaxona": [
+      "acante",
+      "ceftriaxona fabra",
+      "ceftriaxona richet"
+    ],
+    "clozapina": [
+      "clozapina fabra",
+      "clozapina rospaw",
+      "lapena"
+    ],
+    "fenoximetilpenicilina": [
+      "fenoximetilpenicilina fabra",
+      "pen oral jbe.concent",
+      "penfantil oral",
+      "penicilina oral richet"
+    ],
+    "imipenem+cilastatin": [
+      "imipenem fabra"
+    ],
+    "isoxsuprina": [
+      "duvadilan",
+      "isoxsuprina fabra"
+    ],
+    "piroxicam": [
+      "benisan",
+      "piroxicam dupomar",
+      "piroxicam dupomar gel",
+      "piroxicam vannier",
+      "solocalm",
+      "solocalm gel"
+    ],
+    "piroxicam+vit.b12": [
+      "buta rut b"
+    ],
+    "simvastatin": [
+      "coleflu",
+      "gemistatin",
+      "lisac",
+      "nivelipol",
+      "redusterol",
+      "simvastatina fabra",
+      "sistatin",
+      "tanavat",
+      "vasotenal",
+      "zocor"
+    ],
+    "sultamicilina": [
+      "ampigen sb",
+      "sultamicilina richet",
+      "unasyna"
+    ],
+    "vancomicina": [
+      "vancomicina fabra"
+    ],
+    "clorhexidina": [
+      "fada clorhexidina jab.liq"
+    ],
+    "bisoprolol+hidroclorotiazida": [
+      "bisofec d",
+      "corbis d",
+      "lostaprolol diur"
+    ],
+    "bromhexina+asoc.": [
+      "duflegrip plus"
+    ],
+    "clorfeniramina": [
+      "alergitrat",
+      "alergitrat jbe"
+    ],
+    "nafazolina+asoc.": [
+      "drynisan sol",
+      "refenax gts.nasales"
+    ],
+    "tirotricina+benzocaina": [
+      "bucasmol a spray bucal env",
+      "filotricin a colut",
+      "filotricin a spray"
+    ],
+    "gonadotrofina corionica": [
+      "gonacor",
+      "pregnyl f.a.liof"
+    ],
+    "trh": [
+      "trh ferring"
+    ],
+    "acth": [
+      "acthel"
+    ],
+    "ganciclovir": [
+      "ganciclovir richet iv",
+      "grinevel"
+    ],
+    "ambroxol+paracetamol+asoc.": [
+      "letondal"
+    ],
+    "beta-alanina+oxazepam": [
+      "pausafren t"
+    ],
+    "beta-sitosterol": [
+      "prostacur"
+    ],
+    "carisoprodol": [
+      "listaflex"
+    ],
+    "carisoprolol+paracetamol": [
+      "listaflex forte"
+    ],
+    "cinarizina": [
+      "natropas",
+      "stugeron",
+      "stugeron forte",
+      "stugeron retard"
+    ],
+    "clorazepato dipotasico": [
+      "tencilan"
+    ],
+    "gliceridos nat.+vit.a+vit.d": [
+      "lupan pomada derm",
+      "lupan proctol"
+    ],
+    "loperamida+simeticona": [
+      "regulane af"
+    ],
+    "tetraciclina+papaina": [
+      "solustres grag"
+    ],
+    "tiocolchicosido": [
+      "molagar"
+    ],
+    "betametasona+salicilico,ac.+asoc": [
+      "sorsis beta loc"
+    ],
+    "betanechol,cloruro": [
+      "miotonachol"
+    ],
+    "coaltar+asoc.": [
+      "ionil t shamp",
+      "mencogrin a.p. shamp",
+      "sorsis shamp"
+    ],
+    "desloratadina": [
+      "aerius",
+      "aerius jbe",
+      "delorat",
+      "desaler",
+      "desloramar",
+      "desloramar susp.fco",
+      "desloratadina richet",
+      "frenaler",
+      "frenaler jbe",
+      "hexaler",
+      "hexaler jbe",
+      "novo alerpriv",
+      "novo alerpriv jbe",
+      "teralmina"
+    ],
+    "hierro,sulfato+asoc.": [
+      "factofer b",
+      "ferro folic",
+      "iberol gradumet"
+    ],
+    "minoxidil": [
+      "ylo",
+      "ylox loc"
+    ],
+    "mupirocina": [
+      "bactroban crema pomo",
+      "bactroban nasal ung",
+      "mupax cr",
+      "mupax nasal",
+      "mupax ung.derm",
+      "mupiro",
+      "mupirox nasal",
+      "paldar cr",
+      "quemicetina nf nasal"
+    ],
+    "agomelatina": [
+      "valdoxan",
+      "vestin"
+    ],
+    "atomoxetina": [
+      "recit"
+    ],
+    "dienogest+valerato de estradiol": [
+      "azucena",
+      "rubi"
+    ],
+    "drospirenona+estradiol": [
+      "gadofem env.calend"
+    ],
+    "drospirenona+etinilestradiol": [
+      "damsel",
+      "damsella",
+      "kala",
+      "kala md",
+      "maxima",
+      "maxima md"
+    ],
+    "flurbiprofeno": [
+      "clinadol colutorio frasco",
+      "clinadol forte",
+      "clinadol forte ap"
+    ],
+    "gammaglobulina antitetan.+toxoid": [
+      "gammatet t",
+      "tetabulin s/d"
+    ],
+    "glimepiride+metformina": [
+      "adiuvan met",
+      "amaryl m",
+      "endial met",
+      "glemaz met",
+      "hipoglut met",
+      "mectin plus"
+    ],
+    "lercanidipina": [
+      "lercadip"
+    ],
+    "metimazol": [
+      "danantizol"
+    ],
+    "propranolol": [
+      "propranolol gador"
+    ],
+    "tioctico,ac.+pancreatina+asoc.": [
+      "biletan enzimatico"
+    ],
+    "zopiclona": [
+      "descanil/zopiclona",
+      "insomnium"
+    ],
+    "acido omega 3-esteres etilicos a": [
+      "omecap"
+    ],
+    "adapaleno+benzoilo,peroxido": [
+      "dermotopic duo gel",
+      "epiduo gel"
+    ],
+    "alfatradiol": [
+      "avixis sol.top.c/aplic"
+    ],
+    "benzoilo,peroxido": [
+      "benzihex ac",
+      "ecnagel p.b"
+    ],
+    "limeciclina": [
+      "tetralysal"
+    ],
+    "retinoico,ac.": [
+      "retacnyl"
+    ],
+    "hierro,sacarosa": [
+      "energavit"
+    ],
+    "antigeno hepatitis a": [
+      "avaxim",
+      "avaxim jga.prell",
+      "havri",
+      "vaqta"
+    ],
+    "betametasona+neomicina": [
+      "betnovate n cr"
+    ],
+    "fluticasona,furoato": [
+      "alenys inh.nasal ds"
+    ],
+    "fluticasona,furoato+umeclidinio+": [
+      "trelegy ellipta"
+    ],
+    "fluticasona,propionato": [
+      "flixotide nebules"
+    ],
+    "hidroxietil rutosidos": [
+      "venoruton"
+    ],
+    "naratriptan": [
+      "naramig"
+    ],
+    "piracetam": [
+      "noostan"
+    ],
+    "pirimetamina": [
+      "daraprim"
+    ],
+    "ropinirol": [
+      "requip",
+      "requip pd"
+    ],
+    "umeclidinio": [
+      "incruse ellipta"
+    ],
+    "umeclidinio+vilanterol": [
+      "anoro ellipta"
+    ],
+    "valaciclovir": [
+      "valtre",
+      "valtrex",
+      "viramixal"
+    ],
+    "virus atenuados varicela": [
+      "varilrix f.a.+jga.prell",
+      "varivax f.a"
+    ],
+    "fosfomicina": [
+      "fosfomicina luar",
+      "solufos"
+    ],
+    "metadona": [
+      "gobbidona",
+      "metacalmans"
+    ],
+    "oxicodona": [
+      "oxicalmans",
+      "oxinovag"
+    ],
+    "diclofenac potasico+pridinol": [
+      "algicler flex",
+      "diclomar flex potasico",
+      "rodinac flex k"
+    ],
+    "digoxina": [
+      "digoxina lafedar",
+      "lanicor",
+      "lanoxin (digoxina)"
+    ],
+    "fentanilo": [
+      "durogesic d-trans",
+      "talnur"
+    ],
+    "flunarizina": [
+      "sibelium"
+    ],
+    "galantamina": [
+      "memolos",
+      "numencial",
+      "reminyl",
+      "reminyl er"
+    ],
+    "lincomicina": [
+      "frademicina"
+    ],
+    "paliperidona": [
+      "invega",
+      "invega sustenna"
+    ],
+    "condroitin,sulfato": [
+      "lubrictin sol.oft",
+      "structum"
+    ],
+    "pipotiazina": [
+      "pipotiazina"
+    ],
+    "rivastigmina": [
+      "exelon",
+      "exelon parches",
+      "remizeral parches",
+      "rivasmina"
+    ],
+    "carbomer 974 p+asoc.": [
+      "latlas fresh gel oft"
+    ],
+    "diclofenac sodico+tobramicina": [
+      "tobratlas gts.oft"
+    ],
+    "dorzolamida": [
+      "dorlamida sol.oft"
+    ],
+    "inosina,monofosfato disodico": [
+      "inokat sol.oft.esteril",
+      "lumiclar colirio"
+    ],
+    "moxifloxacina+dexametasona fosf.": [
+      "moflag d coliro"
+    ],
+    "prednisolona acetato+fenilefrina": [
+      "fenipred acetato fco.gotero"
+    ],
+    "travoprost+timolol": [
+      "duotrav sol.oft",
+      "glaunot t sol.oft"
+    ],
+    "camilofina+dipirona": [
+      "apasmo gts"
+    ],
+    "coenzima q10+asoc.": [
+      "marathon antioxidante"
+    ],
+    "ginseng+vit.+minerales": [
+      "marathon",
+      "tanvimil ginseng"
+    ],
+    "propinox+dipirona": [
+      "apasmo"
+    ],
+    "floroglucinol+trimetoxibenceno": [
+      "nero"
+    ],
+    "idoxuridina": [
+      "idulea con adhefilm gts",
+      "idulea ung.derm"
+    ],
+    "amoxicilina+acetilcisteina": [
+      "acemuk biotic duo",
+      "amixen ac",
+      "amoxidal duo muc"
+    ],
+    "clenbuterol": [
+      "bronq c",
+      "bronq c jbe",
+      "oxibron"
+    ],
+    "etinilestradiol+gestodeno": [
+      "aleli",
+      "cuidafem",
+      "livianne",
+      "venisse"
+    ],
+    "ezetimibe+simvastatin": [
+      "alipas duo",
+      "coleflux duo",
+      "redusterol duo",
+      "vasotenal ez",
+      "vytorin"
+    ],
+    "hexetidina+bencidamina": [
+      "buchex forte fco"
+    ],
+    "loxoprofeno sodico anhidro": [
+      "tabe"
+    ],
+    "piroxicam+carisoprodol": [
+      "flexicamin",
+      "solocalm flex"
+    ],
+    "piroxicam+carisoprodol+asoc.": [
+      "flexicamin a",
+      "flexicamin b",
+      "solocalm plus"
+    ],
+    "sodio,fluoruro": [
+      "fluordent",
+      "fluordent gts"
+    ],
+    "sodio,fluoruro+asoc.": [
+      "fluordent px colutorio fco"
+    ],
+    "trimebutina+ruscogenina": [
+      "miopropan proctologico cr"
+    ],
+    "aluminio,hidr.+magn.hidr.+oxetac": [
+      "mucaine susp.gel"
+    ],
+    "aminoacidos+vit.b6": [
+      "proteigeno"
+    ],
+    "amiodarona": [
+      "atlansil",
+      "miodarona"
+    ],
+    "buflomedil": [
+      "buflomedil lafedar iny.a"
+    ],
+    "colistina metansulfonato": [
+      "colistina richet iny.f.a",
+      "colistyn"
+    ],
+    "dextrometorfano": [
+      "dextrotos jbe"
+    ],
+    "gaba+vit.b6": [
+      "butineuron"
+    ],
+    "indometacina": [
+      "im",
+      "indomet lafedar",
+      "indote"
+    ],
+    "potasio,gluconato": [
+      "gluco-k elixir",
+      "kaon elixir",
+      "kaon pvo.sob"
+    ],
+    "tizanidina": [
+      "sirdalud",
+      "tizanidal"
+    ],
+    "vit.a+vit.c+vit.d": [
+      "adeconce sol.oral",
+      "tanvimil acd gts",
+      "tri vi sol sol"
+    ],
+    "antraquinona": [
+      "pyralvex fco"
+    ],
+    "calcipotriol": [
+      "cutanit locion env",
+      "cutanit ung"
+    ],
+    "ciprofibrato": [
+      "estaprol",
+      "fixeril"
+    ],
+    "dapsona": [
+      "d.a.p.s",
+      "dapsona lazar"
+    ],
+    "estradiol+prasterona": [
+      "supligol nf im iny.a"
+    ],
+    "etofenamato": [
+      "flogol gel"
+    ],
+    "famotidina": [
+      "gastrosedol nf",
+      "lazartidina",
+      "taural f"
+    ],
+    "hidrosmina": [
+      "flebosmina",
+      "flebosmina gel",
+      "venosmil"
+    ],
+    "hidroxicina": [
+      "ataraxone",
+      "ataraxone gts"
+    ],
+    "paracetamol+dipirona": [
+      "dioxadol sol",
+      "multin",
+      "multin gts"
+    ],
+    "terbinafina": [
+      "fungueal",
+      "fungueal cr",
+      "lamisil",
+      "likana",
+      "tacna",
+      "terbinafina (como clorhidrato) richet",
+      "terekol"
+    ],
+    "ciclopirox": [
+      "loprox laca",
+      "micopirox laca laca"
+    ],
+    "ciclopiroxolamina": [
+      "micopirox cr",
+      "micopirox loc",
+      "micopirox shamp"
+    ],
+    "betametasona+asoc.": [
+      "celestamine pediatrico jbe"
+    ],
+    "diazoxido": [
+      "proglicem"
+    ],
+    "mianserina": [
+      "lerivon"
+    ],
+    "mometasona": [
+      "novasone loc"
+    ],
+    "olmesartan+hidroclorotiazida": [
+      "olmetec d"
+    ],
+    "olmesartan": [
+      "olmetec",
+      "oltu",
+      "tensonit"
+    ],
+    "polisacaridos de neumococos": [
+      "pneumova"
+    ],
+    "virus saram.+parotiditis+rubeola": [
+      "mmr ii iny.liof.f.a"
+    ],
+    "diclofenac potasico+vit.b12+beta": [
+      "diclomar b"
+    ],
+    "acetazolamida": [
+      "aceta",
+      "diabo"
+    ],
+    "azelastina": [
+      "allergodil colirio",
+      "brixia colirio"
+    ],
+    "carteolol,clorh.": [
+      "glauteolol",
+      "poenglaucol"
+    ],
+    "condroitin,sulfato+asoc.": [
+      "optilac colirio"
+    ],
+    "ketotifeno": [
+      "antilerg colirio",
+      "respimex",
+      "respimex jbe"
+    ],
+    "sangre de ternera,ext.desprotein": [
+      "solcoseryl gel oft"
+    ],
+    "tobramicina+dexametasona+asoc.": [
+      "gotabiotic d colirio",
+      "polioftal colirio",
+      "t+d+h dorf sol.oft"
+    ],
+    "oxcarbazepina": [
+      "aurene",
+      "rupo",
+      "trileptal",
+      "trileptal jbe"
+    ],
+    "biotina": [
+      "biotin-a"
+    ],
+    "calcitriol": [
+      "calciraquiferol",
+      "calcitriol",
+      "calcitriol megalabs"
+    ],
+    "coaltar": [
+      "sutrico tar shamp.acond"
+    ],
+    "coaltar+urea+alantoina": [
+      "cremsor n cr"
+    ],
+    "doxiciclina": [
+      "asolmicina.do",
+      "doxibiot",
+      "verboril",
+      "vibramicina"
+    ],
+    "gentamicina+asoc.": [
+      "pancutan gel"
+    ],
+    "homatropina,metilbr.+asoc.": [
+      "sumal"
+    ],
+    "isotretinoina": [
+      "flexresan",
+      "roaccutan"
+    ],
+    "permetrina": [
+      "dermoper cr.fluida",
+      "fripi loc"
+    ],
+    "sodio,perborato+asoc.": [
+      "hifamonil pvo",
+      "hifamonil pvo.sob"
+    ],
+    "tioconazol": [
+      "honguil",
+      "tiomicol sol.p/uñas"
+    ],
+    "triticum vulgare+asoc.": [
+      "cicatul n.f. cr.topica",
+      "cicatul n.f. cr.vag",
+      "cicatul n.f. gasas est.monod",
+      "cicatul n.f. ov"
+    ],
+    "vit.a": [
+      "tanvimil a"
+    ],
+    "vit.b6": [
+      "tanvimil b"
+    ],
+    "vit.c+vit.e+betacaroteno": [
+      "tanvimil plus"
+    ],
+    "vit.e": [
+      "etec",
+      "tanvimil e"
+    ],
+    "vit.k": [
+      "tanvimil k"
+    ],
+    "hioscina,n-butilbr.+dipirona": [
+      "gastrolina"
+    ],
+    "ciproflox.+hidrocort.+lidocaina": [
+      "ciprocler gts.oticas c/lidoc"
+    ],
+    "dipirona": [
+      "dioxadol",
+      "dioxadol jbe",
+      "novacler jbe"
+    ],
+    "glicerilguayacolico eter+asoc.": [
+      "refenax jbe"
+    ],
+    "hexilresorcinol+lidocaina+asoc.": [
+      "refenax caramelos expectorantes caram.blister"
+    ],
+    "propinox": [
+      "becebuen gts",
+      "sertal gts"
+    ],
+    "tirotricina+benzocaina+asoc.": [
+      "aseptobron caramelos env",
+      "bucotricin caramelos antibioticos caram",
+      "bucotricin colut",
+      "filotricin a caram",
+      "filotricin a exp"
+    ],
+    "ambroxol+clenbuterol": [
+      "oxibron n.f",
+      "oxibron n.f. gts"
+    ],
+    "betametasona+gentamicina": [
+      "bacticort cr",
+      "dexalergin nf cr",
+      "diprogenta cr"
+    ],
+    "bisacodilo": [
+      "modaton"
+    ],
+    "ibuprofeno+ergotamina+cafeina": [
+      "ibupirac migra",
+      "migral ii"
+    ],
+    "insulina glargina": [
+      "insulina lantus cart",
+      "insulina lantus solostar",
+      "insulina optisulin solostar lap.prell.desc",
+      "toujeo"
+    ],
+    "liotironina": [
+      "t"
+    ],
+    "cincocaina,clorh.+asoc.": [
+      "proctyl pda"
+    ],
+    "aliskiren": [
+      "rasilez"
+    ],
+    "brinzolamida": [
+      "azopt"
+    ],
+    "brinzolamida+timolol": [
+      "azarga fco"
+    ],
+    "calcitonina": [
+      "calcitonina sandoz",
+      "calcitonina sandoz minor",
+      "calcitonina sandoz nasal"
+    ],
+    "fluvastatina": [
+      "lescol xl"
+    ],
+    "indacaterol": [
+      "onbrize breezhaler"
+    ],
+    "moxifloxacina+dexametasona clor.": [
+      "vigadexa sol.oft"
+    ],
+    "nepafenac": [
+      "nevanac"
+    ],
+    "calcio,carbonato+asoc.": [
+      "calcium sandoz"
+    ],
+    "glucagon": [
+      "glucagen hypokit"
+    ],
+    "insulina aspartica": [
+      "insulina novorapid flexpen",
+      "insulina novorapid penfill"
+    ],
+    "insulina aspartica bifasica": [
+      "insulina novomi"
+    ],
+    "insulina degludec": [
+      "insulina tresiba flextouch"
+    ],
+    "dextran+hidroxipropilmetilcel": [
+      "bio eyes lagrimas sol.oft"
+    ],
+    "bisacodilo+asoc.": [
+      "en-ga-lax grag"
+    ],
+    "carbinoxamina": [
+      "omega"
+    ],
+    "ketoconazol+hidrocort.+gentamic.": [
+      "linfol dermico cr",
+      "microsona c cr",
+      "tridermal cr"
+    ],
+    "lactobacilos": [
+      "lactinex ov"
+    ],
+    "policarbofilo ac.": [
+      "hidrogel aplic.mvd",
+      "hidrogel ov"
+    ],
+    "tetraciclina": [
+      "tetraciclina omega"
+    ],
+    "clotrimazol+betametasona": [
+      "lotricomb cr"
+    ],
+    "desogestrel+etinilestradiol": [
+      "marvelon",
+      "mercilon"
+    ],
+    "felbamato": [
+      "felbamyl"
+    ],
+    "aniracetam": [
+      "pergamid"
+    ],
+    "clorpropamida": [
+      "diabinese"
+    ],
+    "espironolactona+furosemida": [
+      "aldactone d",
+      "errolon e",
+      "lasilacton"
+    ],
+    "estradiol+medroxiprogesterona": [
+      "farludiol"
+    ],
+    "estrogenos conjugados nat.": [
+      "premarin cd",
+      "premarin crema cr.vag"
+    ],
+    "glipizida": [
+      "minodiab"
+    ],
+    "ibuprofeno+clorzoxazona": [
+      "flexina",
+      "ibupirac fle",
+      "ibupirac flex"
+    ],
+    "isosorbide,dinitrato": [
+      "isordil",
+      "medocor sublingual"
+    ],
+    "nicergolina": [
+      "sermion",
+      "sermion ap"
+    ],
+    "oxitetraciclina+hidrocortisona": [
+      "terra cortril spray",
+      "terra cortril ung.topico"
+    ],
+    "polisacaridos de s.pneumoniae": [
+      "prevenar"
+    ],
+    "potasio,cloruro+asoc.": [
+      "co salt fco.salero"
+    ],
+    "sulfasalazina": [
+      "azulfidine en-tabs",
+      "flogostop"
+    ],
+    "tinidazol": [
+      "fasigyn"
+    ],
+    "tioconazol+asoc.": [
+      "trosyd"
+    ],
+    "trihexifenidilo": [
+      "artane"
+    ],
+    "vareniclina,tartrato": [
+      "champi",
+      "champix kit de inicio",
+      "champix kit tratamiento"
+    ],
+    "dienogest+etinilestradiol": [
+      "dienopil"
+    ],
+    "furazolidona": [
+      "giardil susp"
+    ],
+    "nortriptilina+asoc.": [
+      "karile"
+    ],
+    "ramipril": [
+      "lostapres",
+      "tritace"
+    ],
+    "ramipril+hidroclorotiazida": [
+      "tritace"
+    ],
+    "aloe vera": [],
+    "fluorouracilo": [
+      "acler cr"
+    ],
+    "triamcinolona": [
+      "glytop cr",
+      "glytop-f cr"
+    ],
+    "glicoproteinas+ribosomas": [
+      "ribovac",
+      "ribovac gran.sob"
+    ],
+    "enoxolona+asoc.": [
+      "arthrodont pasta dent.gingival"
+    ],
+    "cromoglicato disodico": [
+      "claroftal colirio"
+    ],
+    "difluprednato": [
+      "tolf emuls.oft"
+    ],
+    "luteina+vit.c+vit.e+asoc.": [
+      "diaris"
+    ],
+    "pilocarpina+timolol": [
+      "glaucotensil colirio"
+    ],
+    "poliacrilico,ac.": [
+      "acrylarm gel oft"
+    ],
+    "trehalosa+caboximetilcelulosa,so": [
+      "aucic plus sol.oft"
+    ],
+    "aceite de salmon": [
+      "regulip"
+    ],
+    "buprenorfina": [
+      "bivalis",
+      "bupriva"
+    ],
+    "ciclobenzaprina": [
+      "mitrul"
+    ],
+    "meloxicam+pridinol": [
+      "aldoron flex",
+      "bronax flex",
+      "flexidol relax",
+      "meloxicam + pridinol teva",
+      "mio virobron"
+    ],
+    "noretisterona": [
+      "primolut nor"
+    ],
+    "noretisterona+etinilestradiol": [
+      "primosiston"
+    ],
+    "pancreatina+dimetilpolisiloxano": [
+      "pankreoflat ad"
+    ],
+    "amikacina": [
+      "amikacina richet (como base)"
+    ],
+    "cefoxitina": [
+      "cefoxitina richet"
+    ],
+    "estreptomicina": [
+      "estreptomicina richet tp"
+    ],
+    "tirotricina+asoc.": [
+      "caramelos antibioticos richet caram",
+      "sulfanoral t sol"
+    ],
+    "aceite de pescado": [
+      "omacor"
+    ],
+    "acetilsalicilico,ac.+asoc.": [
+      "trinomia"
+    ],
+    "cerebrolisina": [
+      "renacenz a"
+    ],
+    "codeina+paracetamol": [
+      "dolofri",
+      "dolofrix forte",
+      "g.n.o. cp"
+    ],
+    "amoxicilina+bromhexina": [
+      "amoxidal respiratorio"
+    ],
+    "amoxicilina+ac.clavulanico+asoc.": [
+      "optamox respiratorio duo",
+      "optamox respiratorio duo susp"
+    ],
+    "carboximetilcisteina": [
+      "mucolitic",
+      "mucolitic jbe",
+      "salvitos jbe"
+    ],
+    "carboximetilcisteina+dextrometor": [
+      "mucolitic antitusivo jbe"
+    ],
+    "cinitaprida+simeticona": [
+      "rogastril plus",
+      "rogastril plus masticable"
+    ],
+    "clonixinato lisina": [
+      "dole",
+      "dorixina"
+    ],
+    "clonixinato lisina+ciclobenzapri": [
+      "dorixina relax"
+    ],
+    "clonixinato lisina+ergotamina": [
+      "migra dorixina"
+    ],
+    "clonixinato lisina+vit.b,compl.": [
+      "dorixina b"
+    ],
+    "clorfeniramina+asoc.": [
+      "decidex gts"
+    ],
+    "colindifosfato de citidina": [],
+    "desloratadina+pseudoefedrina": [
+      "frenaler d",
+      "hexaler plus"
+    ],
+    "diazepam+trimebutina": [
+      "plidex t"
+    ],
+    "flecainida": [
+      "diondel"
+    ],
+    "hierro,polimaltosato": [
+      "ferranin",
+      "ferranin iny.im a",
+      "siderblut gotas gts",
+      "siderblut poli",
+      "vitali"
+    ],
+    "lansoprazol": [
+      "lanzopral susp.sob"
+    ],
+    "meloxicam+betametasona+asoc.": [
+      "bronax cort"
+    ],
+    "nitazoxanida": [
+      "nixoran"
+    ],
+    "piridostigmina": [
+      "mestinon",
+      "mestinon ts"
+    ],
+    "propinox+clonixinato de lisina": [
+      "espasmo dolex",
+      "sertal"
+    ],
+    "deflazacort": [
+      "azacortid",
+      "defas",
+      "flamire"
+    ],
+    "estroncio,ranelato": [
+      "osteovital sob",
+      "prodinam sob"
+    ],
+    "hidroxicloroquina": [
+      "axokine",
+      "evoquin",
+      "metirel",
+      "polirreumin"
+    ],
+    "hierro": [
+      "yectafer a"
+    ],
+    "hierro+folico,ac.+asoc.": [
+      "yectafer"
+    ],
+    "nalbufina": [
+      "nalbufina chobet",
+      "nubaina"
+    ],
+    "morfina,clorhidrato": [
+      "g.n.o",
+      "neocalmans",
+      "neocalmans retard"
+    ],
+    "prometazina": [
+      "fenergan",
+      "fenergan iny.a",
+      "prometazina vannier",
+      "rostazina"
+    ],
+    "domperidona+enzimas digest.+asoc": [
+      "dom polienzim"
+    ],
+    "enzimas digestivas+asoc.": [
+      "polienzim"
+    ],
+    "sodio,fosfato+asoc.": [
+      "fosfacol"
+    ],
+    "trimebutina+domperidona+simetic.": [
+      "colixane disten"
+    ],
+    "antigenos virus influenza": [
+      "agrippal s",
+      "istivac",
+      "istivac junior ped.jga.prell"
+    ],
+    "alfuzosina,clorh.": [
+      "uroxatral od"
+    ],
+    "clopidogrel+acetilsalicilico,ac.": [
+      "coplavix"
+    ],
+    "cloroquina": [
+      "nivaquine"
+    ],
+    "espiramicina": [
+      "rovamycine"
+    ],
+    "insulina glulisina": [
+      "insulina apidra solostar"
+    ],
+    "irbesartan": [
+      "aprovel"
+    ],
+    "irbesartan+amlodipino": [
+      "aprovasc"
+    ],
+    "irbesartan+hidroclorotiazida": [
+      "co aprovel"
+    ],
+    "isoniacida": [
+      "nicotibina"
+    ],
+    "propericiazina": [
+      "neuleptil gts"
+    ],
+    "rifampicina+isoniacida": [
+      "rifinah"
+    ],
+    "vigabatrin": [
+      "sabril"
+    ],
+    "psyllium": [
+      "motional pvo"
+    ],
+    "vit.b6+asoc.": [
+      "laurinol plus shamp",
+      "laurinol shamp"
+    ],
+    "indapamida": [
+      "indapamida duremid",
+      "natrilix sr",
+      "noranat",
+      "noranat sr"
+    ],
+    "ivabradina": [
+      "procoralan"
+    ],
+    "perindopril": [
+      "coverene"
+    ],
+    "perindopril+amlodipina": [
+      "coveram"
+    ],
+    "perindopril+indapamida": [
+      "pretera"
+    ],
+    "perindopril+indapamida+amlodipin": [
+      "triplixam"
+    ],
+    "piribedil": [
+      "trivastal retard"
+    ],
+    "rilmenidina": [
+      "hyperium"
+    ],
+    "sulbutiamina": [
+      "megastene"
+    ],
+    "tianeptina": [
+      "stablon"
+    ],
+    "trimetazidina": [
+      "vastarel"
+    ],
+    "acetilsalicilico,ac.+vit.c+vit.e": [
+      "cardiax"
+    ],
+    "dexametasona+neomicina": [
+      "decadron con neomicina"
+    ],
+    "dihidroestreptomicina+asoc.": [
+      "vagisan",
+      "vagisan ov"
+    ],
+    "domperidona+bromazepam+simetic.": [
+      "faradil novo",
+      "vegestabil digest"
+    ],
+    "gammaglobulina humana+histamina": [
+      "histaglobin liof.f.a.+a.dil.+jga.+ag",
+      "histaglobin triplex liof.f.a.+a.dil.+jga.+ag"
+    ],
+    "metoclopramida+simeticona+asoc.": [
+      "faradil"
+    ],
+    "paracetamol+ibuprofeno": [
+      "duomax"
+    ],
+    "piroxicam+dexametasona+asoc.": [
+      "flexicamin b"
+    ],
+    "triac": [
+      "triacana",
+      "triacana ap"
+    ],
+    "vacuna oral polivalente": [
+      "megabron"
+    ],
+    "acetilcisteina+paracet.+asoc.": [
+      "acemuk dia y noche"
+    ],
+    "acetilcisteina+tirotricina+asoc.": [
+      "acemuk l"
+    ],
+    "calcio,lactogluconato+calcio,car": [
+      "calcio base efervescente"
+    ],
+    "clobetasona": [
+      "eumovate cr"
+    ],
+    "furosemida+amilorida": [
+      "errolon a"
+    ],
+    "griseofulvina": [
+      "grisovin fp"
+    ],
+    "lactogluconato,calcio+calcio,car": [
+      "calcio base efervescente d"
+    ],
+    "levodopa+benserazida": [
+      "madopar",
+      "madopar dispersable",
+      "madopar hbs"
+    ],
+    "mometasona+formoterol": [
+      "hexaler bronquial duo"
+    ],
+    "piroxicam+asoc.": [
+      "piroxicam relax"
+    ],
+    "polimixina b+neomicina+asoc.": [
+      "otosporin gts.oticas",
+      "otosporin l gts.oticas"
+    ],
+    "sodio,cloruro+asoc.": [
+      "mar-v fco"
+    ],
+    "sotalol": [
+      "sotacor"
+    ],
+    "sulpirida+clorazep.dipotasico": [
+      "vegestabil"
+    ],
+    "tioridazina": [
+      "meleril",
+      "meleril rtd"
+    ],
+    "triamcinolona+asoc.": [
+      "mantus pda"
+    ],
+    "bismuto,hidroxido+pectina": [
+      "bismuto chobet con pectina",
+      "crema de bismuto chobet con pectina susp"
+    ],
+    "clofibrato": [
+      "clofibrate magnesico chobet"
+    ],
+    "ibuprofeno+codeina": [
+      "mensalgin",
+      "mensalgin forte"
+    ],
+    "meperidina": [
+      "meperidina chobet"
+    ],
+    "midazolam": [
+      "rem chobet"
+    ],
+    "morfina,sulfato": [
+      "neocalmans it"
+    ],
+    "takadiastasa+pancreatina+pepsina": [
+      "tridigestivo vl grag"
+    ],
+    "troxerrutina+magn.ascorbato": [
+      "veraldid"
+    ],
+    "zinc-piridin-3carboxilato": [
+      "nicozinc",
+      "nicozinc sol"
+    ],
+    "siliconas+asoc.": [
+      "notoxin ung"
+    ],
+    "lornoxicam": [
+      "xefo rapid"
+    ],
+    "plantago ovata": [
+      "plantaben sob.monodosis"
+    ],
+    "clorfeniramina maleato+ibuprofen": [
+      "aseptobron antigripal forte"
+    ],
+    "clorfeniramina+dextrometorfano": [
+      "aseptobron jbe"
+    ],
+    "colestiramina": [
+      "nivelipol resina pvo.p/susp.oral sob"
+    ],
+    "dihidrocodeinona+resina-clorf.": [
+      "aseptobron unicap"
+    ],
+    "ibandronato,sod.+calcio+vit.d3": [
+      "disdual plus"
+    ],
+    "loperamida+neomicina": [
+      "neomas l"
+    ],
+    "magnesio+ginseng+asoc.": [
+      "total magnesiano ginseng pvo.sob"
+    ],
+    "magnesio+vit.c": [
+      "total magnesiano vitamina c",
+      "total magnesiano vitamina c pvo.eferv.sob"
+    ],
+    "mentol+alcanfor+asoc.": [
+      "aseptobron inhalaciones perlas"
+    ],
+    "neomicina": [
+      "neomas bowers"
+    ],
+    "norfloxacina+fenazopiridina": [
+      "urotem dol"
+    ],
+    "polen,extracto": [
+      "cernilton plus"
+    ],
+    "pygeum africanum+serenoa rep.": [
+      "normoprost plus"
+    ],
+    "saccharomyces boulardii": [
+      "floratil"
+    ],
+    "triiodotironina+flumetasona": [
+      "tresite f pomo"
+    ],
+    "yohimbina+asoc.": [
+      "optimina plus blist"
+    ],
+    "acitretina": [
+      "neotigason"
+    ],
+    "dexametasona+clorfeniramina": [
+      "dexalergin",
+      "dexalergin jbe"
+    ],
+    "diflorasona+econazol+gentamicina": [
+      "filoderma plus cr",
+      "griseocrem nf pomo"
+    ],
+    "diflorasona+gentamicina": [
+      "filoderma cr"
+    ],
+    "escina(extr.cast.de indias)": [
+      "nadem forte grag"
+    ],
+    "idebenona": [
+      "nemocebral"
+    ],
+    "idebenona+nimodipina": [
+      "nemocebral plus"
+    ],
+    "lisinopril+hidroclorotiazida": [
+      "tensopril d"
+    ],
+    "magnesio,valproato": [
+      "logical"
+    ],
+    "metotrexato": [
+      "artrait",
+      "artrait sc",
+      "ervemin"
+    ],
+    "nomegestrol": [
+      "lutenyl"
+    ],
+    "simeticona+pancreatina+domperid.": [
+      "praxis"
+    ],
+    "sulpirida": [
+      "vipral"
+    ],
+    "tamsulosina+finasteride": [
+      "prostene plus"
+    ],
+    "trazodone": [
+      "taxagon ad"
+    ],
+    "zonisamide": [
+      "kinaplase"
+    ],
+    "diclofenac potasico+asoc.": [
+      "diclogesic plus b"
+    ],
+    "diclofenac+vit.b12+asoc.": [
+      "algio nervomax fuerte a"
+    ],
+    "folico,ac.+asoc.": [
+      "blastop prevent"
+    ],
+    "paracetamol+orfenadrina": [
+      "joker flex"
+    ],
+    "prednisona": [
+      "metilpres"
+    ]
   }
 }
