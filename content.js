@@ -192,14 +192,20 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
           console.log("Medicamentos detectados:", medicamentos);
           console.log("Nombre:", nombreCompleto, "| DNI:", dni);
 
-          chrome.runtime.sendMessage({
-            tipo: 'datosPaciente',
-            payload: {
-              nombreCompleto,
-              dni,
-              medicamentos
-            }
-          });
+       chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.tipo === "popupListo") {
+    const { nombre, dni } = extraerNombreYDNI();  // <- importante destructuring
+    console.log("Nombre:", nombre, "| DNI:", dni);
+
+    chrome.runtime.sendMessage({
+      tipo: "datosPaciente",
+      nombre,
+      dni,
+      medicamentos: medicamentosDetectados,
+    });
+  }
+});
+
         } catch (e) {
           console.error("❌ Error al extraer y enviar datos:", e);
         }
