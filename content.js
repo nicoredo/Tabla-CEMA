@@ -113,26 +113,28 @@ function buscarMedicamentos(texto) {
 
 function extraerNombreYDNI() {
   const texto = document.body.innerText;
-
-  // Separar por líneas reales
   const lineas = texto.split(/\n+/).map(l => l.trim()).filter(Boolean);
 
   let nombre = null;
   let dni = null;
 
-  for (const linea of lineas) {
-    // Buscar nombre en mayúsculas con coma
-    if (!nombre && /^[A-ZÁÉÍÓÚÑ\s]+,\s*[A-ZÁÉÍÓÚÑ\s]+$/.test(linea)) {
-      nombre = capitalizarNombre(linea.replace(',', '').trim());
-    }
-
-    // Buscar DNI en formato "DNI: 12345678"
-    if (!dni && /DNI:\s*\d{6,9}/.test(linea)) {
+  for (let i = 0; i < lineas.length; i++) {
+    const linea = lineas[i];
+    if (/DNI:\s*\d{6,9}/.test(linea)) {
+      // Extraer DNI
       const match = linea.match(/DNI:\s*(\d{6,9})/);
       if (match) dni = match[1];
-    }
 
-    if (nombre && dni) break;
+      // Tomar línea anterior como nombre
+      if (i > 0) {
+        const posibleNombre = lineas[i - 1];
+        if (/^[A-ZÁÉÍÓÚÑ\s]+,\s*[A-ZÁÉÍÓÚÑ\s]+$/.test(posibleNombre)) {
+          nombre = capitalizarNombre(posibleNombre.replace(',', '').trim());
+        }
+      }
+
+      break;
+    }
   }
 
   console.log("🧍 Nombre detectado:", nombre);
@@ -149,9 +151,6 @@ function capitalizarNombre(nombre) {
     .join(' ');
 }
 
-// Test directo
-const datos = extraerNombreYDNI();
-alert(`Nombre: ${datos.nombre}\\nDNI: ${datos.dni}`);
    
 function buscarMedicacionConDosis(texto) {
   const resultados = new Map();
