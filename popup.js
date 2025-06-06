@@ -197,13 +197,16 @@ document.getElementById("btnReceta")?.addEventListener("click", () => {
 
     const generarReceta = (grupo, colIndex, fechaTexto) => {
       const posX = margenIzq + colIndex * anchoReceta;
-      const posY = 15;
+      const posY = 30;
 
       const logo = new Image();
       logo.src = "logo_cema.png";
       logo.onload = () => {
-        doc.addImage(logo, "PNG", posX + 25, posY, 40, 20);
-        doc.setFontSize(10);
+      const ratio = logo.width / logo.height;
+  const altura = 25;
+  const ancho = altura * ratio;
+  doc.addImage(logo, "PNG", posX + 20, posY - 5, 50, 20);
+        doc.setFontSize(14);
         doc.text(`Paciente: ${nombre}`, posX, posY + 28);
         doc.text(`DNI: ${dni}`, posX, posY + 35);
         doc.setFontSize(11);
@@ -215,7 +218,7 @@ document.getElementById("btnReceta")?.addEventListener("click", () => {
           let dosis = cols[1]?.value.trim();
           if (dosis && !dosis.toLowerCase().includes("mg")) dosis += " mg";
           if (nombreMed && dosis) {
-            doc.text(`• ${nombreMed} ${dosis} x 30 comp`, posX + 5, posY + 57 + idx * 10);
+            doc.text(`• ${nombreMed} ${dosis} x 30 comp`, posX + 5, posY + 57 + idx * 12);
           }
         });
 
@@ -226,7 +229,10 @@ document.getElementById("btnReceta")?.addEventListener("click", () => {
         const firma = new Image();
         firma.src = "firma_digital.png";
         firma.onload = () => {
-          doc.addImage(firma, "PNG", posX + 40, posY + 75, 45, 25);
+  const ratio = firma.width / firma.height;
+  const altura = 50;
+  const ancho = altura * ratio;
+  doc.addImage(firma, "PNG", posX + 40, posY + 75, ancho, altura);
 
           recetaIndex++;
           if (recetaIndex < grupos.length * cantidadMeses) {
