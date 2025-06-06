@@ -115,24 +115,26 @@ function extraerNombreYDNI() {
   let nombre = null;
   let dni = null;
 
-  // Buscar el nombre del paciente en el link de persona
-  const linkPaciente = document.querySelector("a[onclick*=\"openDialogForm('persona'\"]");
-  if (linkPaciente) {
-    nombre = linkPaciente.title?.trim() || linkPaciente.innerText?.trim();
+  const texto = document.body.innerText;
+
+  // Buscar línea que parece el nombre: mayúsculas, con coma
+  const matchNombre = texto.match(/^([A-ZÁÉÍÓÚÑ]+\\s*,\\s*[A-ZÁÉÍÓÚÑ\\s]+)$/m);
+  if (matchNombre) {
+    nombre = matchNombre[1].trim();
   }
 
-  // Buscar DNI (opcionalmente mejorar esto luego)
-  const texto = document.body.innerText;
-  const matchDNI = texto.match(/DNI\s*[:\-]?\s*(\d{6,9})/i);
+  // Buscar DNI
+  const matchDNI = texto.match(/DNI\\s*[:\\-]?\\s*(\\d{6,9})/i);
   if (matchDNI) {
     dni = matchDNI[1];
   }
 
-  console.log("✅ Nombre detectado:", nombre);
-  console.log("✅ DNI detectado:", dni);
+  console.log("🧍 Nombre detectado:", nombre);
+  console.log("🆔 DNI detectado:", dni);
 
   return { nombre, dni };
 }
+
    
 function buscarMedicacionConDosis(texto) {
   const resultados = new Map();
