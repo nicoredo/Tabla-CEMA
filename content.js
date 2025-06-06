@@ -111,18 +111,52 @@ function buscarMedicamentos(texto) {
 }
 
 
-   function extraerNombreYDNI() {
-  const h1 = document.querySelector('h1')?.innerText.trim() || '';
-
-  // Buscar en todo el texto visible
+function extraerNombreYDNI() {
   const texto = document.body.innerText;
-  const dniMatch = texto.match(/dni[: ]+(\d{6,8})/i);
+  const lineas = texto.split('\n').map(l => l.trim()).filter(Boolean);
 
-  return {
-    nombreCompleto: h1,
-    dni: dniMatch ? dniMatch[1] : ''
-  };
+  let nombre = null;
+  let dni = null;
+
+  for (const linea of lineas) {
+    // Buscar DNI
+    if (!dni) {
+      const matchDNI = linea.match(/DNI\s*[:\-]?\s*(\d{6,9})/i);
+      if (matchDNI) {
+        dni = matchDNI[1];
+        console.log("✅ DNI detectado:", dni);
+      }
+    }
+
+    // Buscar nombre con distintas estrategias
+    if (!nombre) {
+      let match = null;
+
+      // Caso 1: "Apellido y Nombre: PEREZ JUAN"
+      match = linea.match(/(apellido\s*y?\s*nombre|nombre\s*y?\s*apellido)\s*[:\-]?\s*(.+)/i);
+      if (match) {
+        nombre = match[2].trim();
+        console.log("✅ Nombre detectado por clave:", nombre);
+        continue;
+      }
+
+      // Caso 2: "PEREZ, JUAN CARLOS"
+      match = linea.match(/^([A-ZÁÉÍÓÚÑ]{2,}),?\s+([A-ZÁÉÍÓÚÑ\s]+)$/i);
+      if (match) {
+        nombre = `${match[1]} ${match[2]}`.trim();
+        console.log("✅ Nombre detectado por patrón libre:", nombre);
+      }
+    }
+
+    if (nombre && dni) break;
+  }
+
+  if (!nombre) console.warn("❌ No se detectó nombre en esta historia.");
+  if (!dni) console.warn("❌ No se detectó DNI en esta historia.");
+
+  return { nombre, dni };
 }
+
 
 
     
