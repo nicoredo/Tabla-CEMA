@@ -120,20 +120,20 @@ function extraerNombreYDNI() {
 
   for (let i = 0; i < lineas.length; i++) {
     const linea = lineas[i];
+
     if (/DNI:\s*\d{6,9}/.test(linea)) {
-      // Extraer DNI
       const match = linea.match(/DNI:\s*(\d{6,9})/);
       if (match) dni = match[1];
 
-      // Tomar línea anterior como nombre
-      if (i > 0) {
-        const posibleNombre = lineas[i - 1];
-        if (/^[A-ZÁÉÍÓÚÑ\s]+,\s*[A-ZÁÉÍÓÚÑ\s]+$/.test(posibleNombre)) {
-          nombre = capitalizarNombre(posibleNombre.replace(',', '').trim());
+      // Buscar hacia atrás (máximo 3 líneas arriba) un posible nombre
+      for (let j = i - 1; j >= i - 3 && j >= 0; j--) {
+        if (/,/.test(lineas[j]) && /^[a-záéíóúñ\s]+,\s*[a-záéíóúñ\s]+$/i.test(lineas[j])) {
+          nombre = capitalizarNombre(lineas[j].replace(',', '').trim());
+          break;
         }
       }
 
-      break;
+      break; // salimos cuando encontramos el bloque de DNI
     }
   }
 
