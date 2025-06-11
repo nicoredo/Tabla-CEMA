@@ -140,7 +140,7 @@ function extraerNombreYDNI() {
   console.log("🧍 Nombre detectado:", nombre);
   console.log("🆔 DNI detectado:", dni);
 
-  return { nombre, dni };
+  return { nombreCompleto:nombre, dni };
 }
 
 function capitalizarNombre(nombre) {
@@ -187,24 +187,17 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
           const texto = document.body.innerText.toLowerCase();
           console.log("Texto clínico detectado:", texto.slice(0, 300));
           const medicamentos = buscarMedicacionConDosis(texto);
-          const { nombreCompleto, dni } = extraerNombreYDNI();
+          const { nombre, dni } = extraerNombreYDNI();
 
           console.log("Medicamentos detectados:", medicamentos);
-          console.log("Nombre:", nombreCompleto, "| DNI:", dni);
+         
+                    console.log("Nombre:", nombre, "| DNI:", dni);
 
-       chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.tipo === "popupListo") {
-    const { nombre, dni } = extraerNombreYDNI();  // <- importante destructuring
-    console.log("Nombre:", nombre, "| DNI:", dni);
+          chrome.runtime.sendMessage({
+            tipo: "datosPaciente",
+            payload: { nombreCompleto: nombre, dni, medicamentos }
+          });
 
-    chrome.runtime.sendMessage({
-      tipo: "datosPaciente",
-      nombre,
-      dni,
-      medicamentos: medicamentosDetectados,
-    });
-  }
-});
 
         } catch (e) {
           console.error("❌ Error al extraer y enviar datos:", e);
