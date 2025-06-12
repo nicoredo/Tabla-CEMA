@@ -111,47 +111,21 @@ function buscarMedicamentos(texto) {
 }
 
 
-function extraerNombreYDNI() {
+   function extraerNombreYDNI() {
+  const h1 = document.querySelector('h1')?.innerText.trim() || '';
+
+  // Buscar en todo el texto visible
   const texto = document.body.innerText;
-  const lineas = texto.split(/\n+/).map(l => l.trim()).filter(Boolean);
+  const dniMatch = texto.match(/dni[: ]+(\d{6,8})/i);
 
-  let nombre = null;
-  let dni = null;
-
-  for (let i = 0; i < lineas.length; i++) {
-    const linea = lineas[i];
-
-    if (/DNI:\s*\d{6,9}/.test(linea)) {
-      const match = linea.match(/DNI:\s*(\d{6,9})/);
-      if (match) dni = match[1];
-
-      // Buscar hacia atrás (máximo 3 líneas arriba) un posible nombre
-      for (let j = i - 1; j >= i - 3 && j >= 0; j--) {
-        if (/,/.test(lineas[j]) && /^[a-záéíóúñ\s]+,\s*[a-záéíóúñ\s]+$/i.test(lineas[j])) {
-          nombre = capitalizarNombre(lineas[j].replace(',', '').trim());
-          break;
-        }
-      }
-
-      break; // salimos cuando encontramos el bloque de DNI
-    }
-  }
-
-  console.log("🧍 Nombre detectado:", nombre);
-  console.log("🆔 DNI detectado:", dni);
-
-  return { nombreCompleto:nombre, dni };
+  return {
+    nombreCompleto: h1,
+    dni: dniMatch ? dniMatch[1] : ''
+  };
 }
 
-function capitalizarNombre(nombre) {
-  return nombre
-    .toLowerCase()
-    .split(/\s+/)
-    .map(p => p.charAt(0).toUpperCase() + p.slice(1))
-    .join(' ');
-}
 
-   
+    
 function buscarMedicacionConDosis(texto) {
   const resultados = new Map();
   if (!texto) return [];
@@ -187,18 +161,19 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
           const texto = document.body.innerText.toLowerCase();
           console.log("Texto clínico detectado:", texto.slice(0, 300));
           const medicamentos = buscarMedicacionConDosis(texto);
-          const { nombre, dni } = extraerNombreYDNI();
+          const { nombreCompleto, dni } = extraerNombreYDNI();
 
           console.log("Medicamentos detectados:", medicamentos);
-         
-                    console.log("Nombre:", nombre, "| DNI:", dni);
+          console.log("Nombre:", nombreCompleto, "| DNI:", dni);
 
           chrome.runtime.sendMessage({
-            tipo: "datosPaciente",
-            payload: { nombreCompleto: nombre, dni, medicamentos }
+            tipo: 'datosPaciente',
+            payload: {
+              nombreCompleto,
+              dni,
+              medicamentos
+            }
           });
-
-
         } catch (e) {
           console.error("❌ Error al extraer y enviar datos:", e);
         }

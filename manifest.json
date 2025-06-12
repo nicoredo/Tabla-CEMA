@@ -17,8 +17,8 @@
     {
       "resources": [
         "terminologia_medica.json",
-        "jspdf.umd.min.js",
-        "jspdf.plugin.autotable.min.js",
+        "libs/jspdf.umd.min.js",
+        "libs/jspdf.plugin.autotable.min.js",
         "logo.png",
         "logo_cema.png",
         "firma_digital.png"
